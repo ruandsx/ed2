@@ -132,10 +132,8 @@ void imprimeVetor(int v[], int cont)
     }
 }
 
-void fazTudo(int * compara, int * troca, int * aleatoriedade)
+void fazTudo(int * compara, int * troca, int * maximoElementos, float * tempo)
 {
-    vector <int> ids1;
-
     string id;
     int valor;
 
@@ -145,14 +143,14 @@ void fazTudo(int * compara, int * troca, int * aleatoriedade)
 
     int cont =0;
     int linha;
-
-    while(cont<=*aleatoriedade)
+    int vetor1[*maximoElementos];
+    while(cont<=*maximoElementos)
     {
         getline(arquivoR,id, ',');
         valor = atof(id.c_str());
-        ids1.push_back(valor);
+        vetor1[cont] = valor;
 
-        linha = rand() % (13000000/(*aleatoriedade)) + 0;
+        linha = rand() % (13000000/(*maximoElementos)) + 0;
         for(int i=0; i<=linha;i++){
             getline(arquivoR, id);
         }
@@ -161,14 +159,13 @@ void fazTudo(int * compara, int * troca, int * aleatoriedade)
     }
     arquivoR.close();
 
-    int vetor1[cont];
-    for(int i=0; i< cont; i++)
-    {
-        vetor1[i] = ids1[i];
-    }
-    quickSort(vetor1, 0, cont-1, compara, troca, cont);
+        auto start = high_resolution_clock::now();
+        quickSort(vetor1, 0, cont-1, compara, troca, cont);
+        auto stop = high_resolution_clock::now();
+        auto duration = duration_cast<microseconds>(stop - start);
+        *tempo = duration.count();
 
-    snapshot(vetor1, cont);
+    //snapshot(vetor1, cont);
     cont = 0;
 }
 
@@ -178,12 +175,14 @@ int main()
   cout << fixed << setprecision(3);
 
     int compara,troca;
+    float tempo = 0;
     
     int valor;
     string id;
 
 
     ifstream arquivoR;
+    ofstream saida;
     arquivoR.open("entrada.txt");
 
     getline(arquivoR,id, '\n');
@@ -199,22 +198,27 @@ int main()
     //snapshot(ns, valor);
     arquivoR.close();
 
+    for(int i=0; i<5; i++){
+        for(int j=0; j<valor; j++)
+        {
+            
+            compara = 0;
+            troca = 0;
+            //auto start = high_resolution_clock::now();
+            fazTudo(&compara, &troca, &ns[i], &tempo);
+            //auto stop = high_resolution_clock::now();
 
-    for(int i=0; i<valor; i++)
-    {
-        
-        compara = 0;
-        troca = 0;
-        auto start = high_resolution_clock::now();
-        fazTudo(&compara, &troca, &ns[i]);
-        auto stop = high_resolution_clock::now();
+            //auto duration = duration_cast<microseconds>(stop - start);
 
-        auto duration = duration_cast<microseconds>(stop - start);
-
-        cout << "Tempo na execucao "<< i+1 << ": "<< duration.count() /float(1000000) << " segundos" << endl;
-        cout << "Comparacoes feitas: " << compara << endl;
-        cout << "Trocas feitas: " << troca << "\n"<< endl;
+           
+            saida.open("saida.txt", ofstream::app);        
+            saida << "Tempo na execucao "<< j+1 << " com vetor tam = "<< ns[i] << " : "<< tempo << " microsegundos" << endl;
+            saida << "Comparacoes feitas: " << compara << endl;
+            saida << "Trocas feitas: " << troca << "\n"<< endl;
+            saida.close();
+        } 
     }
+    
 
     return 0;
 }

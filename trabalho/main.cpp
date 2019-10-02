@@ -159,11 +159,11 @@ void fazTudo(int * compara, int * troca, int * maximoElementos, float * tempo)
     }
     arquivoR.close();
 
-        auto start = high_resolution_clock::now();
+        //auto start = high_resolution_clock::now();
         quickSort(vetor1, 0, cont-1, compara, troca, cont);
-        auto stop = high_resolution_clock::now();
-        auto duration = duration_cast<microseconds>(stop - start);
-        *tempo = duration.count();
+        //auto stop = high_resolution_clock::now();
+        //auto duration = duration_cast<nanoseconds>(stop - start);
+        //*tempo = duration.count();
 
     //snapshot(vetor1, cont);
     cont = 0;
@@ -182,6 +182,7 @@ int main()
 
 
     ifstream arquivoR;
+    
     ofstream saida;
     arquivoR.open("entrada.txt");
 
@@ -195,8 +196,8 @@ int main()
         ns[i] = atof(id.c_str());
     }
 
-    //snapshot(ns, valor);
     arquivoR.close();
+
 
     for(int i=0; i<5; i++){
         for(int j=0; j<valor; j++)
@@ -204,15 +205,16 @@ int main()
             
             compara = 0;
             troca = 0;
-            //auto start = high_resolution_clock::now();
+            auto start = high_resolution_clock::now();
             fazTudo(&compara, &troca, &ns[i], &tempo);
-            //auto stop = high_resolution_clock::now();
+            auto stop = high_resolution_clock::now();
 
-            //auto duration = duration_cast<microseconds>(stop - start);
+            auto duration = duration_cast<seconds>(stop - start);
 
            
             saida.open("saida.txt", ofstream::app);        
-            saida << "Tempo na execucao "<< j+1 << " com vetor tam = "<< ns[i] << " : "<< tempo << " microsegundos" << endl;
+    
+            saida << "Tempo na execucao "<< j+1 << " com vetor tam = "<< ns[i] << " : "<< duration.count() << " segundos" << endl;
             saida << "Comparacoes feitas: " << compara << endl;
             saida << "Trocas feitas: " << troca << "\n"<< endl;
             saida.close();

@@ -1,100 +1,20 @@
-Tempo na execucao 1 com vetor tam = 1000 : 0 segundos
-Comparacoes feitas: 6447
-Trocas feitas: 5724
+Tempo na execucao 1 com vetor tam = 1000 : 8 segundos
+Comparacoes feitas: 6767
+Trocas feitas: 6040
 
-Tempo na execucao 2 com vetor tam = 1000 : 0 segundos
-Comparacoes feitas: 7333
-Trocas feitas: 6608
+Tempo na execucao 2 com vetor tam = 1000 : 7 segundos
+Comparacoes feitas: 6200
+Trocas feitas: 5477
 
-Tempo na execucao 3 com vetor tam = 1000 : 0 segundos
-Comparacoes feitas: 6766
-Trocas feitas: 6046
+Tempo na execucao 3 com vetor tam = 1000 : 7 segundos
+Comparacoes feitas: 6073
+Trocas feitas: 5351
 
-Tempo na execucao 4 com vetor tam = 1000 : 0 segundos
-Comparacoes feitas: 6822
-Trocas feitas: 6098
+Tempo na execucao 4 com vetor tam = 1000 : 7 segundos
+Comparacoes feitas: 7078
+Trocas feitas: 6353
 
-Tempo na execucao 5 com vetor tam = 1000 : 0 segundos
-Comparacoes feitas: 6960
-Trocas feitas: 6228
-
-Tempo na execucao 1 com vetor tam = 5000 : 997 segundos
-Comparacoes feitas: 40894
-Trocas feitas: 37272
-
-Tempo na execucao 2 com vetor tam = 5000 : 0 segundos
-Comparacoes feitas: 43471
-Trocas feitas: 39847
-
-Tempo na execucao 3 com vetor tam = 5000 : 998 segundos
-Comparacoes feitas: 39377
-Trocas feitas: 35746
-
-Tempo na execucao 4 com vetor tam = 5000 : 0 segundos
-Comparacoes feitas: 39051
-Trocas feitas: 35423
-
-Tempo na execucao 5 com vetor tam = 5000 : 998 segundos
-Comparacoes feitas: 43678
-Trocas feitas: 40058
-
-Tempo na execucao 1 com vetor tam = 10000 : 997 segundos
-Comparacoes feitas: 77649
-Trocas feitas: 70394
-
-Tempo na execucao 2 com vetor tam = 10000 : 1994 segundos
-Comparacoes feitas: 89559
-Trocas feitas: 82310
-
-Tempo na execucao 3 com vetor tam = 10000 : 1995 segundos
-Comparacoes feitas: 86475
-Trocas feitas: 79223
-
-Tempo na execucao 4 com vetor tam = 10000 : 1994 segundos
-Comparacoes feitas: 84138
-Trocas feitas: 76912
-
-Tempo na execucao 5 com vetor tam = 10000 : 1994 segundos
-Comparacoes feitas: 84794
-Trocas feitas: 77546
-
-Tempo na execucao 1 com vetor tam = 50000 : 9972 segundos
-Comparacoes feitas: 489247
-Trocas feitas: 453127
-
-Tempo na execucao 2 com vetor tam = 50000 : 8976 segundos
-Comparacoes feitas: 528951
-Trocas feitas: 492725
-
-Tempo na execucao 3 com vetor tam = 50000 : 9974 segundos
-Comparacoes feitas: 494796
-Trocas feitas: 458633
-
-Tempo na execucao 4 com vetor tam = 50000 : 9970 segundos
-Comparacoes feitas: 515073
-Trocas feitas: 478869
-
-Tempo na execucao 5 com vetor tam = 50000 : 8977 segundos
-Comparacoes feitas: 478557
-Trocas feitas: 442386
-
-Tempo na execucao 1 com vetor tam = 100000 : 21942 segundos
-Comparacoes feitas: 949725
-Trocas feitas: 877370
-
-Tempo na execucao 2 com vetor tam = 100000 : 21936 segundos
-Comparacoes feitas: 978975
-Trocas feitas: 906579
-
-Tempo na execucao 3 com vetor tam = 100000 : 18949 segundos
-Comparacoes feitas: 1018167
-Trocas feitas: 945854
-
-Tempo na execucao 4 com vetor tam = 100000 : 19948 segundos
-Comparacoes feitas: 937938
-Trocas feitas: 865547
-
-Tempo na execucao 5 com vetor tam = 100000 : 21939 segundos
-Comparacoes feitas: 979972
-Trocas feitas: 907641
+Tempo na execucao 5 com vetor tam = 1000 : 7 segundos
+Comparacoes feitas: 6117
+Trocas feitas: 5389
 

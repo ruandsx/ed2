@@ -1,0 +1,20 @@
+Tempo na execucao 1 com vetor tam = 1000 : 7 segundos
+Comparacoes feitas: 6317
+Trocas feitas: 5591
+
+Tempo na execucao 2 com vetor tam = 1000 : 7 segundos
+Comparacoes feitas: 6704
+Trocas feitas: 5977
+
+Tempo na execucao 3 com vetor tam = 1000 : 7 segundos
+Comparacoes feitas: 6970
+Trocas feitas: 6248
+
+Tempo na execucao 4 com vetor tam = 1000 : 8 segundos
+Comparacoes feitas: 6151
+Trocas feitas: 5423
+
+Tempo na execucao 5 com vetor tam = 1000 : 7 segundos
+Comparacoes feitas: 6619
+Trocas feitas: 5897
+

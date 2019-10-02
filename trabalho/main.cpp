@@ -139,7 +139,7 @@ void fazTudo(int * compara, int * troca, int * maximoElementos, float * tempo)
 
 
     ifstream arquivoR;
-    arquivoR.open("bgg-13m-reviews.csv");
+    arquivoR.open("assets/bgg-13m-reviews.csv");
 
     int cont =0;
     int linha;
@@ -184,7 +184,7 @@ int main()
     ifstream arquivoR;
     
     ofstream saida;
-    arquivoR.open("entrada.txt");
+    arquivoR.open("assets/entrada.txt");
 
     getline(arquivoR,id, '\n');
     valor = atof(id.c_str());
@@ -212,7 +212,7 @@ int main()
             auto duration = duration_cast<seconds>(stop - start);
 
            
-            saida.open("saida.txt", ofstream::app);        
+            saida.open("assets/saida.txt", ofstream::app);        
     
             saida << "Tempo na execucao "<< j+1 << " com vetor tam = "<< ns[i] << " : "<< duration.count() << " segundos" << endl;
             saida << "Comparacoes feitas: " << compara << endl;

@@ -1,0 +1,20 @@
+#ifndef CENARIO1_H
+#define CENARIO1_H
+using namespace std;
+
+
+class Cenario1
+{
+private:
+int n;
+
+public:
+  Cenario1(); 
+  ~Cenario1();    
+  void lerArquivo();
+  void gravarArquivo();
+  void criaVetor();
+  void ordenar();
+};
+
+#endif // CENARIO1_H

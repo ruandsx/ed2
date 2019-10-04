@@ -12,6 +12,8 @@ using namespace std::chrono;
 using namespace std;
 #include "cpps/QuicksortMediana.cpp"
 #include "classes/QuicksortMediana.h"
+#include "cpps/Cenario1.cpp"
+#include "classes/Cenario1.h"
 
 using namespace std;
 int main(){
@@ -23,7 +25,8 @@ int main(){
   quicksort->print();
   delete quicksort;
 
-  
+  Cenario1 *cen1 = new Cenario1();
+  cen1->lerArquivo();
   cout << "[";
     for(auto i = 0; i < 6; i++) {
         cout << vetor[i] << ", ";

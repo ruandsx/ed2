@@ -18,3 +18,4 @@ Tempo na execucao 5 com vetor tam = 1000 : 7 segundos
 Comparacoes feitas: 6619
 Trocas feitas: 5897
 
+deu certo coroio

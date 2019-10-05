@@ -20,18 +20,21 @@ int main(){
 
   int vetor[] = { 10, 45, 39, 1, 12, 35, 44};
 
-  QuicksortMediana *quicksort = new QuicksortMediana();
-  quicksort->ordenar(vetor, 0, 5);
-  quicksort->print();
-  delete quicksort;
-
-  Cenario1 *cen1 = new Cenario1();
-  cen1->lerArquivo();
-  cout << "[";
+  //QuicksortMediana *quicksort = new QuicksortMediana();
+  /*quicksort->ordenar(vetor, 0, 6);
+    quicksort->print();
+     cout << "[";
     for(auto i = 0; i < 6; i++) {
         cout << vetor[i] << ", ";
     }
     cout << vetor[6] << "]" << endl;
+     */
+  //delete quicksort;
+
+  Cenario1 *cen1 = new Cenario1;
+  cen1->iniciar();
+ 
+  
 
   return 0;
 }

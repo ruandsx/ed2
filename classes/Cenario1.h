@@ -10,15 +10,10 @@ class Cenario1
 private:
 int n;
 
-ifstream leitor;
-ofstream gravador;
-
 public:
   Cenario1(); 
   ~Cenario1();    
-  void lerArquivo();
-  void gravarArquivo();
-  void criaVetor();
+  void iniciar();
   void ordenar();
 };
 

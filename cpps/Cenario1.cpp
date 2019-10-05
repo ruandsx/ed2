@@ -1,4 +1,6 @@
 #include "../classes/Cenario1.h"
+#include "../classes/Arquivo.h"
+#include "Arquivo.cpp"
 #include <cstdlib>
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,33 +18,12 @@ Cenario1::Cenario1(){
 Cenario1::~Cenario1(){
 }
 
-void Cenario1::lerArquivo(){
-    int quantidadeTestes = 0;
-    string lido;
-    leitor.open("../assets/entrada.txt");
-
-    getline(leitor, lido, '\n');
-    quantidadeTestes = atof(lido.c_str());
-
-    int ns[quantidadeTestes];
-    for(int i=0; i<quantidadeTestes; i++)
-    {
-        getline(leitor, lido);
-        ns[i] = atof(lido.c_str());
-    }
-    for(int i=0; i<quantidadeTestes; i++){
-        cout << ns[i] << endl;
-    }
-
-    leitor.close();
-}
-
-void Cenario1::gravarArquivo(){
-
-}
-
-void Cenario1::criaVetor(){
-
+void Cenario1::iniciar(){
+  ifstream leitor;
+  Arquivo *arquivo = new Arquivo();
+  arquivo->abrir("C:/Users/ruanl/Desktop/DocumentosFacul/Materias/ED2/assets/saida.txt", 'e');
+  arquivo->gravar("deu certo coroio");
+  arquivo->fechar();
 }
 
 void Cenario1::ordenar(){

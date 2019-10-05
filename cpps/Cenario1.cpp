@@ -62,7 +62,10 @@ void Cenario1::iniciar(){
       string1.str("");
       string2.str("");
       string3.str("");
-
+      for(int i=0; i<1000; i++){
+        cout << vetor[i] << " ";
+      }
+      cout << endl;
     }
   }
     

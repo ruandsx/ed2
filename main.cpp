@@ -15,6 +15,8 @@ using namespace std;
 
 using namespace std;
 int main(){
+  srand(time(NULL));
+
 
   Cenario1 *cen1 = new Cenario1;
   cen1->iniciar();

@@ -51,12 +51,15 @@ void Arquivo::getTamanhos(int tamanhos[]){
 }
 
 void Arquivo::montarVetor(int vetor[], int tam){
-    int i=0, id, linha;
-    string dados;
+    srand(time(NULL));
+
+    int i=0, id, length;
+    string dados, lixo;
 
     while(i<tam)
     {
-        getline(leitor,dados, ',');
+      
+        /*getline(leitor,dados, ',');
         id = atof(dados.c_str());
         vetor[i] = id;
 
@@ -66,13 +69,20 @@ void Arquivo::montarVetor(int vetor[], int tam){
         }
 
         getline(leitor, dados);
+        i++;*/
+        leitor.seekg(0, leitor.end);
+        length = leitor.tellg(); //armazena quantos bytes tem o leitor total.
+        leitor.seekg(0, leitor.beg);
+
+        leitor.seekg(rand() % length, ios::beg); // procurar do inicio ate o fim do leitor
+        getline(leitor, lixo);         // joga a linha no lixo
+        getline(leitor, dados, ',');
+        id = atof(dados.c_str());
+        vetor[i] = id;
         i++;
     }
 
-  //  for(int i=0; i<10; i++){
-  //    cout<<vetor[i]<<" ";
-  //  }
-    cout<<endl;
+
 }
 
 void Arquivo::gravar(string dados){

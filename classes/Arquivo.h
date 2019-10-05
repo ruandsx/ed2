@@ -18,7 +18,8 @@ public:
   Arquivo(); 
   ~Arquivo();   
   void abrir(string caminho, char operacao); 
-  void ler();
+  void getTamanhos(int tamanhos[]);
+  void montarVetor(int vetor[], int tam);
   void gravar(string dados);
   void fechar();
 };

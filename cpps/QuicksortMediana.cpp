@@ -116,9 +116,10 @@ void QuicksortMediana::trocar(int* a, int* b){
     trocas++;
 }
 
-void QuicksortMediana::print(){
+int QuicksortMediana::getTrocas(){
+    return trocas;
+}
 
-  cout << trocas << endl;
-  cout << comparacoes << endl;
-
+int QuicksortMediana::getComparacoes(){
+    return comparacoes;
 }

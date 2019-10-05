@@ -16,7 +16,9 @@ public:
   int particionar(int arr[], int low, int high);
   int mediana(int *V, int low, int high);
   void trocar(int* a, int* b);
-  void print();
+  int getTrocas();
+  int getComparacoes();
+
 };
 
 #endif // QUICKSORTMEDIANA_H

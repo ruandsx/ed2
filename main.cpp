@@ -23,4 +23,5 @@ int main(){
   delete cen1;
 
   return 0;
+  
 }

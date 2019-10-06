@@ -70,6 +70,7 @@ void Arquivo::montarVetor(int vetor[], int tam){
 
         getline(leitor, dados);
         i++;*/
+        
         leitor.seekg(0, leitor.end);
         length = leitor.tellg(); //armazena quantos bytes tem o leitor total.
         leitor.seekg(0, leitor.beg);

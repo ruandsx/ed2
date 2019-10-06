@@ -13,8 +13,8 @@ int n;
 public:
   Cenario1(); 
   ~Cenario1();    
-  void iniciar();
-  void ordenar();
+  void vetorSimples();
+  void vetorStruct();
 };
 
 #endif // CENARIO1_H

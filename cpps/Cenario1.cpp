@@ -94,7 +94,7 @@ void Cenario1::vetorStruct(){
     arquivo->fechar();
 
     for(int i=1; i<=tamanhos[0]; i++){
-      for(int j=0; j<4; j++){
+      for(int j=0; j<5; j++){
 
         QuicksortRecursivo *quicksort = new QuicksortRecursivo();
 

@@ -66,9 +66,7 @@ void QuicksortRecursivo::trocar(int* a, int* b){
 
 void QuicksortRecursivo::criarStruct(int tamanho){
     srand(time(NULL));
-
-    avaliacao avaliacoes[tamanho];
-
+    Avaliacao *avaliacoes = new Avaliacao[tamanho];
     int i=0, id, length;
     int tam = tamanho;
     string dados, lixo;
@@ -90,11 +88,11 @@ void QuicksortRecursivo::criarStruct(int tamanho){
     
     ordenarStruct(avaliacoes, 0, tam-1);
 
-    //delete avaliacoes;
+    delete avaliacoes;
 
 }
 
-void QuicksortRecursivo::ordenarStruct(avaliacao avaliacoes[], int low, int high){
+void QuicksortRecursivo::ordenarStruct(Avaliacao avaliacoes[], int low, int high){
     if (low < high)
     {
         int pi = particionarStruct(avaliacoes, low, high);
@@ -105,7 +103,7 @@ void QuicksortRecursivo::ordenarStruct(avaliacao avaliacoes[], int low, int high
 
 }
 
-int QuicksortRecursivo::particionarStruct(avaliacao avaliacoes[], int low, int high){
+int QuicksortRecursivo::particionarStruct(Avaliacao avaliacoes[], int low, int high){
 
     int pivot;
     pivot = avaliacoes[high].id;
@@ -127,8 +125,8 @@ int QuicksortRecursivo::particionarStruct(avaliacao avaliacoes[], int low, int h
     return (i + 1);
 }
 
-void QuicksortRecursivo::trocarStruct(avaliacao* a, avaliacao* b){
-    avaliacao t = *a;
+void QuicksortRecursivo::trocarStruct(Avaliacao* a, Avaliacao* b){
+    Avaliacao t = *a;
     *a = *b;
     *b = t;
     trocas++;

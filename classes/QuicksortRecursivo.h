@@ -20,10 +20,10 @@ public:
   void ordenar(int arr[], int low, int high);
   int particionar(int arr[], int low, int high);
   void criarStruct(int tamanho);
-  void ordenarStruct(avaliacao arr[], int low, int high);
-  int particionarStruct(avaliacao arr[], int low, int high);
+  void ordenarStruct(Avaliacao arr[], int low, int high);
+  int particionarStruct(Avaliacao arr[], int low, int high);
   void trocar(int* a, int* b);
-  void trocarStruct(avaliacao* a, avaliacao* b);
+  void trocarStruct(Avaliacao* a, Avaliacao* b);
   int getTrocas();
   int getComparacoes();
 

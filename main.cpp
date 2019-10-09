@@ -21,7 +21,7 @@ int main(){
 
 
   Cenario1 *cen1 = new Cenario1;
-  //cen1->vetorSimples();
+  cen1->vetorSimples();
   cen1->vetorStruct();
   delete cen1;
 

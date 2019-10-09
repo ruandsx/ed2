@@ -5,7 +5,7 @@
 #include <fstream>
 #include <string>
 
-struct avaliacao
+struct Avaliacao
 {
       int id;
       int nota;

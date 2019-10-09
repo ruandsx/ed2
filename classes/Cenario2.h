@@ -13,7 +13,9 @@ int n;
 public:
   Cenario2(); 
   ~Cenario2();    
-  void iniciar();
+  void recursivo();
+  void mediana();
+  void insercao();
 };
 
 #endif // CENARIO2_H

@@ -2,102 +2,169 @@ Relatório:
 
 Vetor Simples:
 Tempo na execucao 1 com vetor tam = 1000 : 0 microsegundos
-Comparacoes feitas: 7978
-Trocas feitas: 9638
+Comparacoes feitas: 9766
+Trocas feitas: 10601
 
 Tempo na execucao 2 com vetor tam = 1000 : 0 microsegundos
-Comparacoes feitas: 7978
-Trocas feitas: 9638
+Comparacoes feitas: 9766
+Trocas feitas: 10601
 
-Tempo na execucao 3 com vetor tam = 1000 : 998 microsegundos
-Comparacoes feitas: 7978
-Trocas feitas: 9638
+Tempo na execucao 3 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 10039
+Trocas feitas: 10859
 
 Tempo na execucao 4 com vetor tam = 1000 : 0 microsegundos
-Comparacoes feitas: 8068
-Trocas feitas: 9718
+Comparacoes feitas: 10039
+Trocas feitas: 10859
 
 Tempo na execucao 5 com vetor tam = 1000 : 0 microsegundos
-Comparacoes feitas: 8068
-Trocas feitas: 9718
+Comparacoes feitas: 10039
+Trocas feitas: 10859
 
-Tempo na execucao 1 com vetor tam = 5000 : 2996 microsegundos
-Comparacoes feitas: 142413
-Trocas feitas: 151771
+Tempo na execucao 1 com vetor tam = 5000 : 2008 microsegundos
+Comparacoes feitas: 152232
+Trocas feitas: 156916
 
-Tempo na execucao 2 com vetor tam = 5000 : 2029 microsegundos
-Comparacoes feitas: 142413
-Trocas feitas: 151771
+Tempo na execucao 2 com vetor tam = 5000 : 1994 microsegundos
+Comparacoes feitas: 152232
+Trocas feitas: 156916
 
-Tempo na execucao 3 com vetor tam = 5000 : 3008 microsegundos
-Comparacoes feitas: 142413
-Trocas feitas: 151771
+Tempo na execucao 3 com vetor tam = 5000 : 997 microsegundos
+Comparacoes feitas: 152232
+Trocas feitas: 156916
 
-Tempo na execucao 4 com vetor tam = 5000 : 5983 microsegundos
-Comparacoes feitas: 142413
-Trocas feitas: 151771
+Tempo na execucao 4 com vetor tam = 5000 : 1994 microsegundos
+Comparacoes feitas: 152232
+Trocas feitas: 156916
 
-Tempo na execucao 5 com vetor tam = 5000 : 1995 microsegundos
-Comparacoes feitas: 142413
-Trocas feitas: 151771
+Tempo na execucao 5 com vetor tam = 5000 : 1994 microsegundos
+Comparacoes feitas: 152232
+Trocas feitas: 156916
 
-Tempo na execucao 1 com vetor tam = 10000 : 6981 microsegundos
-Comparacoes feitas: 494371
-Trocas feitas: 513705
+Tempo na execucao 1 com vetor tam = 10000 : 6983 microsegundos
+Comparacoes feitas: 524683
+Trocas feitas: 534352
 
-Tempo na execucao 2 com vetor tam = 10000 : 5983 microsegundos
-Comparacoes feitas: 494382
-Trocas feitas: 513716
+Tempo na execucao 2 com vetor tam = 10000 : 6015 microsegundos
+Comparacoes feitas: 524683
+Trocas feitas: 534352
 
-Tempo na execucao 3 com vetor tam = 10000 : 5982 microsegundos
-Comparacoes feitas: 494382
-Trocas feitas: 513716
+Tempo na execucao 3 com vetor tam = 10000 : 7978 microsegundos
+Comparacoes feitas: 510175
+Trocas feitas: 519843
 
-Tempo na execucao 4 com vetor tam = 10000 : 6982 microsegundos
-Comparacoes feitas: 494382
-Trocas feitas: 513716
+Tempo na execucao 4 com vetor tam = 10000 : 5986 microsegundos
+Comparacoes feitas: 510175
+Trocas feitas: 519843
 
-Tempo na execucao 5 com vetor tam = 10000 : 7980 microsegundos
-Comparacoes feitas: 494382
-Trocas feitas: 513716
+Tempo na execucao 5 com vetor tam = 10000 : 4985 microsegundos
+Comparacoes feitas: 510175
+Trocas feitas: 519843
 
-Tempo na execucao 1 com vetor tam = 50000 : 251415 microsegundos
-Comparacoes feitas: 11368325
-Trocas feitas: 11467659
+Tempo na execucao 1 com vetor tam = 50000 : 111700 microsegundos
+Comparacoes feitas: 11289960
+Trocas feitas: 11339628
 
-Tempo na execucao 2 com vetor tam = 50000 : 134641 microsegundos
-Comparacoes feitas: 11228297
-Trocas feitas: 11327631
+Tempo na execucao 2 com vetor tam = 50000 : 133644 microsegundos
+Comparacoes feitas: 11335012
+Trocas feitas: 11384680
 
-Tempo na execucao 3 com vetor tam = 50000 : 122672 microsegundos
-Comparacoes feitas: 11410973
-Trocas feitas: 11510307
+Tempo na execucao 3 com vetor tam = 50000 : 106262 microsegundos
+Comparacoes feitas: 11297968
+Trocas feitas: 11347636
 
-Tempo na execucao 4 com vetor tam = 50000 : 112698 microsegundos
-Comparacoes feitas: 11197667
-Trocas feitas: 11297001
+Tempo na execucao 4 com vetor tam = 50000 : 120715 microsegundos
+Comparacoes feitas: 11348246
+Trocas feitas: 11397914
 
-Tempo na execucao 5 com vetor tam = 50000 : 129655 microsegundos
-Comparacoes feitas: 11285085
-Trocas feitas: 11384419
+Tempo na execucao 5 com vetor tam = 50000 : 110726 microsegundos
+Comparacoes feitas: 11214774
+Trocas feitas: 11264442
 
-Tempo na execucao 1 com vetor tam = 100000 : 449125 microsegundos
-Comparacoes feitas: 44294987
-Trocas feitas: 44494321
+Tempo na execucao 1 com vetor tam = 100000 : 467748 microsegundos
+Comparacoes feitas: 45116677
+Trocas feitas: 45216345
 
-Tempo na execucao 2 com vetor tam = 100000 : 505329 microsegundos
-Comparacoes feitas: 44440816
-Trocas feitas: 44640150
+Tempo na execucao 2 com vetor tam = 100000 : 408906 microsegundos
+Comparacoes feitas: 44289347
+Trocas feitas: 44389015
 
-Tempo na execucao 3 com vetor tam = 100000 : 497187 microsegundos
-Comparacoes feitas: 44739119
-Trocas feitas: 44938453
+Tempo na execucao 3 com vetor tam = 100000 : 510656 microsegundos
+Comparacoes feitas: 44378397
+Trocas feitas: 44478065
 
-Tempo na execucao 4 com vetor tam = 100000 : 450909 microsegundos
-Comparacoes feitas: 44560489
-Trocas feitas: 44759823
+Tempo na execucao 4 com vetor tam = 100000 : 489281 microsegundos
+Comparacoes feitas: 44427574
+Trocas feitas: 44527242
 
-Tempo na execucao 5 com vetor tam = 100000 : 446339 microsegundos
-Comparacoes feitas: 45085114
-Trocas feitas: 45284448
+Tempo na execucao 5 com vetor tam = 100000 : 441337 microsegundos
+Comparacoes feitas: 44731293
+Trocas feitas: 44830961
+
+
+
+Vetor Struct:
+Tempo na execucao 1 com vetor struct tam = 1000 : 25937 microsegundos
+Comparacoes feitas: 8716
+Trocas feitas: 9543
+
+Tempo na execucao 2 com vetor struct tam = 1000 : 27434 microsegundos
+Comparacoes feitas: 8716
+Trocas feitas: 9543
+
+Tempo na execucao 3 com vetor struct tam = 1000 : 25697 microsegundos
+Comparacoes feitas: 8716
+Trocas feitas: 9543
+
+Tempo na execucao 4 com vetor struct tam = 1000 : 29919 microsegundos
+Comparacoes feitas: 8716
+Trocas feitas: 9543
+
+Tempo na execucao 1 com vetor struct tam = 5000 : 158585 microsegundos
+Comparacoes feitas: 137483
+Trocas feitas: 142160
+
+Tempo na execucao 2 com vetor struct tam = 5000 : 177242 microsegundos
+Comparacoes feitas: 137483
+Trocas feitas: 142160
+
+Tempo na execucao 3 com vetor struct tam = 5000 : 191488 microsegundos
+Comparacoes feitas: 137483
+Trocas feitas: 142160
+
+Tempo na execucao 4 com vetor struct tam = 5000 : 223272 microsegundos
+Comparacoes feitas: 137483
+Trocas feitas: 142160
+
+Tempo na execucao 1 com vetor struct tam = 10000 : 507980 microsegundos
+Comparacoes feitas: 477213
+Trocas feitas: 486882
+
+Tempo na execucao 2 com vetor struct tam = 10000 : 566883 microsegundos
+Comparacoes feitas: 477213
+Trocas feitas: 486882
+
+Tempo na execucao 3 com vetor struct tam = 10000 : 588892 microsegundos
+Comparacoes feitas: 509131
+Trocas feitas: 518800
+
+Tempo na execucao 4 com vetor struct tam = 10000 : 379252 microsegundos
+Comparacoes feitas: 509131
+Trocas feitas: 518800
+
+Tempo na execucao 1 com vetor struct tam = 50000 : 4066583 microsegundos
+Comparacoes feitas: 11236614
+Trocas feitas: 11286281
+
+Tempo na execucao 2 com vetor struct tam = 50000 : 4129165 microsegundos
+Comparacoes feitas: 11372261
+Trocas feitas: 11421928
+
+Tempo na execucao 3 com vetor struct tam = 50000 : 4200103 microsegundos
+Comparacoes feitas: 11256970
+Trocas feitas: 11306637
+
+Tempo na execucao 4 com vetor struct tam = 50000 : 4273325 microsegundos
+Comparacoes feitas: 11290031
+Trocas feitas: 11339698
 

@@ -12,6 +12,8 @@ using namespace std::chrono;
 using namespace std;
 #include "cpps/Cenario1.cpp"
 #include "classes/Cenario1.h"
+#include "cpps/Cenario2.cpp"
+#include "classes/Cenario2.h"
 
 using namespace std;
 int main(){
@@ -19,10 +21,11 @@ int main(){
 
 
   Cenario1 *cen1 = new Cenario1;
-  cen1->vetorSimples();
+  //cen1->vetorSimples();
   cen1->vetorStruct();
   delete cen1;
 
+  //Cenario2 *cen2 = new Cenario2;
   return 0;
   
 }

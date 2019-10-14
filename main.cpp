@@ -22,7 +22,7 @@ using namespace std;
 using namespace std;
 int main(){
   srand(time(NULL));
-
+  /*
   Cenario1 *cen1 = new Cenario1;
   cen1->vetorSimples();
   cen1->vetorStruct();
@@ -41,7 +41,7 @@ int main(){
   cen3->heapsort();
   cen3->shellsort();
   delete cen3;
-
+  */
   Cenario4 *cen4 = new Cenario4;
   cen4->sondagemLinear();
   cen4->sondagemquadratica();

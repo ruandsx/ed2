@@ -8,7 +8,7 @@ using namespace std;
 class Cenario4
 {
 private:
-int n;
+int tamanhos[6];
 
 public:
   Cenario4(); 

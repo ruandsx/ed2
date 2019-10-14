@@ -1,6 +1,9 @@
 #include "../classes/Cenario4.h"
+#include "../classes/hashTable.h"
+#include "../classes/endSeparado.h"
 
-//arquivos
+#include "../cpps/hashTable.cpp"
+#include "../cpps/endSeparado.cpp"
 
 #include <cstdlib>
 #include <stdio.h>
@@ -19,6 +22,12 @@ Cenario4::Cenario4(){
   arquivo->abrir("C:/Users/ruanl/Desktop/DocumentosFacul/Materias/ED2/assets/saida.txt", 'e');
   arquivo->gravar("Relatório:\n\nINICIO CENARIO 4!\n");
   arquivo->fechar();
+
+  arquivo->abrir("C:/Users/ruanl/Desktop/DocumentosFacul/Materias/ED2/assets/entrada.txt", 'l');
+  arquivo->getTamanhos(tamanhos);
+  arquivo->fechar();
+
+
   delete arquivo;
 }
 
@@ -33,6 +42,17 @@ Cenario4::~Cenario4(){
 
 void Cenario4::sondagemLinear(){
 
+   for(int i=1; i<=tamanhos[0]; i++){
+      int vetor[tamanhos[i]];
+      hashTable *h = new hashTable(tamanho[i]*2);
+      h->criaTabela();
+      for(int j=0; j<5; j++){
+        for(int k=0; k<tamanhos[i])
+          h->sondagemLinear(vetor[k]);
+      }
+      delete h;
+   }
+
 }
 
 void Cenario4::sondagemQuadratica(){
@@ -44,7 +64,8 @@ void Cenario4::duploHash(){
 }
 
 void Cenario4::encadeamentoSeparado(){
-  
+  //endSeparado *e = new endSeparado(10);
+  //e->insereItem(valor);
 }
 
 void Cenario4::encadeamentoCoalescido(){

@@ -6,8 +6,8 @@ using namespace std;
 class QuicksortMediana
 {
 private:
-int comparacoes;
-int trocas;
+unsigned long int comparacoes;
+unsigned long int trocas;
 int medianaTresOuCinco;
 
 public:

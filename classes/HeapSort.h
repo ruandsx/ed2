@@ -1,23 +1,24 @@
-#ifndef SHELLSORT_H
-#define SHELLSORT_H
+#ifndef HEAPSORT_H
+#define HEAPSORT_H
 using namespace std;
 #include <iostream>
 #include <fstream>
 #include <string>
 
 
-class ShellSort
+class HeapSort
 {
 private:
 unsigned long int comparacoes;
 unsigned long int trocas;
 
 public:
-  ShellSort(); 
-  ~ShellSort();    
+  HeapSort();
+  ~HeapSort();  
   void ordenar(int arr[], int n);
+  void criaHeap(int vet[], int i, int f);
   int getComparacoes();
   int getTrocas();
 };
 
-#endif // SHELLSORT_H
+#endif // HEAPSORT_H

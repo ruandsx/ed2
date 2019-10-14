@@ -9,8 +9,8 @@ using namespace std;
 class QuicksortInsercao
 {
 private:
-long long int comparacoes;
-long long int trocas;
+unsigned long int comparacoes;
+unsigned long int trocas;
 
 public:
   QuicksortInsercao(); 

@@ -9,8 +9,8 @@ using namespace std;
 class InsertionSort
 {
 private:
-long unsigned int comparacoes;
-long unsigned int trocas;
+unsigned long int comparacoes;
+unsigned long int trocas;
 
 public:
   InsertionSort(); 

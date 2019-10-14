@@ -1,23 +1,23 @@
-#ifndef INSERTIONSORT_H
-#define INSERTIONSORT_H
+#ifndef SHELLSORT_H
+#define SHELLSORT_H
 using namespace std;
 #include <iostream>
 #include <fstream>
 #include <string>
 
 
-class InsertionSort
+class ShellSort
 {
 private:
 long unsigned int comparacoes;
 long unsigned int trocas;
 
 public:
-  InsertionSort(); 
-  ~InsertionSort();    
+  ShellSort(); 
+  ~ShellSort();    
   void ordenar(int arr[], int n);
   int getComparacoes();
   int getTrocas();
 };
 
-#endif // INSERTIONSORT_H
+#endif // SHELLSORT_H

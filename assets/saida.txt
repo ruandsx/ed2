@@ -526,3 +526,429 @@ Trocas feitas: 43396485
 
 
 FIM CENARIO 2
+
+
+INICIO CENARIO 3!
+
+
+InsertionSort:
+
+Tempo na execucao 1 com vetor tam = 1000 : 999 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 2 com vetor tam = 1000 : 997 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 3 com vetor tam = 1000 : 999 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 4 com vetor tam = 1000 : 1023 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 5 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 1 com vetor tam = 5000 : 24934 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 2 com vetor tam = 5000 : 17952 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 3 com vetor tam = 5000 : 21917 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 4 com vetor tam = 5000 : 18924 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 5 com vetor tam = 5000 : 17938 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 1 com vetor tam = 10000 : 75798 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 2 com vetor tam = 10000 : 73804 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 3 com vetor tam = 10000 : 91755 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 4 com vetor tam = 10000 : 77792 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 5 com vetor tam = 10000 : 74807 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 1 com vetor tam = 50000 : 2133297 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 2 com vetor tam = 50000 : 1879975 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 3 com vetor tam = 50000 : 2524253 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 4 com vetor tam = 50000 : 1757303 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 5 com vetor tam = 50000 : 1932835 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 1 com vetor tam = 100000 : 7891943 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 2 com vetor tam = 100000 : 7996626 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 3 com vetor tam = 100000 : 7617676 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 4 com vetor tam = 100000 : 8294847 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 5 com vetor tam = 100000 : 8171145 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+
+FIM CENARIO 3
+
+
+INICIO CENARIO 3!
+
+
+InsertionSort:
+
+Tempo na execucao 1 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8072
+Trocas feitas: 8893
+
+Tempo na execucao 2 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8072
+Trocas feitas: 8893
+
+Tempo na execucao 3 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8072
+Trocas feitas: 8893
+
+Tempo na execucao 4 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8072
+Trocas feitas: 8893
+
+Tempo na execucao 5 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8072
+Trocas feitas: 8893
+
+Tempo na execucao 1 com vetor tam = 5000 : 1993 microsegundos
+Comparacoes feitas: 134912
+Trocas feitas: 139593
+
+Tempo na execucao 2 com vetor tam = 5000 : 1995 microsegundos
+Comparacoes feitas: 134912
+Trocas feitas: 139593
+
+Tempo na execucao 3 com vetor tam = 5000 : 998 microsegundos
+Comparacoes feitas: 134912
+Trocas feitas: 139593
+
+Tempo na execucao 4 com vetor tam = 5000 : 2992 microsegundos
+Comparacoes feitas: 134912
+Trocas feitas: 139593
+
+Tempo na execucao 5 com vetor tam = 5000 : 998 microsegundos
+Comparacoes feitas: 134912
+Trocas feitas: 139593
+
+Tempo na execucao 1 com vetor tam = 10000 : 4986 microsegundos
+Comparacoes feitas: 489352
+Trocas feitas: 499019
+
+Tempo na execucao 2 com vetor tam = 10000 : 4992 microsegundos
+Comparacoes feitas: 489352
+Trocas feitas: 499019
+
+Tempo na execucao 3 com vetor tam = 10000 : 6990 microsegundos
+Comparacoes feitas: 501231
+Trocas feitas: 510898
+
+Tempo na execucao 4 com vetor tam = 10000 : 4986 microsegundos
+Comparacoes feitas: 501231
+Trocas feitas: 510898
+
+Tempo na execucao 5 com vetor tam = 10000 : 5986 microsegundos
+Comparacoes feitas: 501231
+Trocas feitas: 510898
+
+Tempo na execucao 1 com vetor tam = 50000 : 101767 microsegundos
+Comparacoes feitas: 11310150
+Trocas feitas: 11359817
+
+Tempo na execucao 2 com vetor tam = 50000 : 101728 microsegundos
+Comparacoes feitas: 11103733
+Trocas feitas: 11153400
+
+Tempo na execucao 3 com vetor tam = 50000 : 125664 microsegundos
+Comparacoes feitas: 11186446
+Trocas feitas: 11236113
+
+Tempo na execucao 4 com vetor tam = 50000 : 114728 microsegundos
+Comparacoes feitas: 11144369
+Trocas feitas: 11194036
+
+Tempo na execucao 5 com vetor tam = 50000 : 118645 microsegundos
+Comparacoes feitas: 11229027
+Trocas feitas: 11278694
+
+Tempo na execucao 1 com vetor tam = 100000 : 812828 microsegundos
+Comparacoes feitas: 44431757
+Trocas feitas: 44531424
+
+Tempo na execucao 2 com vetor tam = 100000 : 423869 microsegundos
+Comparacoes feitas: 44703591
+Trocas feitas: 44803258
+
+Tempo na execucao 3 com vetor tam = 100000 : 462736 microsegundos
+Comparacoes feitas: 44049257
+Trocas feitas: 44148924
+
+Tempo na execucao 4 com vetor tam = 100000 : 383009 microsegundos
+Comparacoes feitas: 44468860
+Trocas feitas: 44568527
+
+Tempo na execucao 5 com vetor tam = 100000 : 457776 microsegundos
+Comparacoes feitas: 44462508
+Trocas feitas: 44562175
+
+
+
+InsertionSort:
+
+Tempo na execucao 1 com vetor tam = 1000 : 998 microsegundos
+Comparacoes feitas: 250086
+Trocas feitas: 250086
+
+Tempo na execucao 2 com vetor tam = 1000 : 998 microsegundos
+Comparacoes feitas: 250086
+Trocas feitas: 250086
+
+Tempo na execucao 3 com vetor tam = 1000 : 998 microsegundos
+Comparacoes feitas: 250086
+Trocas feitas: 250086
+
+Tempo na execucao 4 com vetor tam = 1000 : 997 microsegundos
+Comparacoes feitas: 250086
+Trocas feitas: 250086
+
+Tempo na execucao 5 com vetor tam = 1000 : 997 microsegundos
+Comparacoes feitas: 250086
+Trocas feitas: 250086
+
+Tempo na execucao 1 com vetor tam = 5000 : 35904 microsegundos
+Comparacoes feitas: 6216157
+Trocas feitas: 6216157
+
+Tempo na execucao 2 com vetor tam = 5000 : 32912 microsegundos
+Comparacoes feitas: 6216157
+Trocas feitas: 6216157
+
+Tempo na execucao 3 com vetor tam = 5000 : 32913 microsegundos
+Comparacoes feitas: 6216157
+Trocas feitas: 6216157
+
+Tempo na execucao 4 com vetor tam = 5000 : 50864 microsegundos
+Comparacoes feitas: 6156055
+Trocas feitas: 6156055
+
+Tempo na execucao 5 com vetor tam = 5000 : 60826 microsegundos
+Comparacoes feitas: 6156055
+Trocas feitas: 6156055
+
+Tempo na execucao 1 com vetor tam = 10000 : 159572 microsegundos
+Comparacoes feitas: 24743901
+Trocas feitas: 24743901
+
+Tempo na execucao 2 com vetor tam = 10000 : 122672 microsegundos
+Comparacoes feitas: 24714554
+Trocas feitas: 24714554
+
+Tempo na execucao 3 com vetor tam = 10000 : 113696 microsegundos
+Comparacoes feitas: 24714554
+Trocas feitas: 24714554
+
+Tempo na execucao 4 com vetor tam = 10000 : 117694 microsegundos
+Comparacoes feitas: 24714554
+Trocas feitas: 24714554
+
+Tempo na execucao 5 com vetor tam = 10000 : 109673 microsegundos
+Comparacoes feitas: 24710770
+Trocas feitas: 24710770
+
+Tempo na execucao 1 com vetor tam = 50000 : 3871650 microsegundos
+Comparacoes feitas: 618294032
+Trocas feitas: 618294032
+
+Tempo na execucao 2 com vetor tam = 50000 : 2894300 microsegundos
+Comparacoes feitas: 617921513
+Trocas feitas: 617921513
+
+Tempo na execucao 3 com vetor tam = 50000 : 2980035 microsegundos
+Comparacoes feitas: 622745565
+Trocas feitas: 622745565
+
+Tempo na execucao 4 com vetor tam = 50000 : 3243333 microsegundos
+Comparacoes feitas: 621192828
+Trocas feitas: 621192828
+
+Tempo na execucao 5 com vetor tam = 50000 : 3137616 microsegundos
+Comparacoes feitas: 619347760
+Trocas feitas: 619347760
+
+Tempo na execucao 1 com vetor tam = 100000 : 11727640 microsegundos
+Comparacoes feitas: -1808340365
+Trocas feitas: -1808340365
+
+Tempo na execucao 2 com vetor tam = 100000 : 11479355 microsegundos
+Comparacoes feitas: -1822237061
+Trocas feitas: -1822237061
+
+Tempo na execucao 3 com vetor tam = 100000 : 12610295 microsegundos
+Comparacoes feitas: -1819669494
+Trocas feitas: -1819669494
+
+Tempo na execucao 4 com vetor tam = 100000 : 10090062 microsegundos
+Comparacoes feitas: -1813787383
+Trocas feitas: -1813787383
+
+Tempo na execucao 5 com vetor tam = 100000 : 13835021 microsegundos
+Comparacoes feitas: -1818514919
+Trocas feitas: -1818514919
+
+
+
+ShellSort:
+
+Tempo na execucao 1 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 2 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 3 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 4 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 5 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 1 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 2 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 3 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 4 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 5 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 1 com vetor tam = 10000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 2 com vetor tam = 10000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 3 com vetor tam = 10000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 4 com vetor tam = 10000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 5 com vetor tam = 10000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 1 com vetor tam = 50000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 2 com vetor tam = 50000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 3 com vetor tam = 50000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 4 com vetor tam = 50000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 5 com vetor tam = 50000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 1 com vetor tam = 100000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 2 com vetor tam = 100000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 3 com vetor tam = 100000 : 998 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 4 com vetor tam = 100000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+Tempo na execucao 5 com vetor tam = 100000 : 0 microsegundos
+Comparacoes feitas: 0
+Trocas feitas: 0
+
+
+FIM CENARIO 3

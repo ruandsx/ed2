@@ -25,17 +25,22 @@ InsertionSort::~InsertionSort(){
 void InsertionSort::ordenar(int arr[], int n){
 
     int chave=0;
+    int j;
     for (int i = 1; i < n; i++) 
     {  
+        comparacoes ++;
         chave = arr[i];  
         j = i - 1;  
   
-        while (int j >= 0 && arr[j] > chave) 
-        {  
+        while (j >= 0 && arr[j] > chave) 
+        {   
+            comparacoes++;
             arr[j + 1] = arr[j];  
             j = j - 1;  
+            trocas++;
         }  
         arr[j + 1] = chave;  
+        trocas++;
     }  
 
 }

@@ -20,8 +20,7 @@ using namespace std;
 using namespace std;
 int main(){
   srand(time(NULL));
-
-
+  /*
   Cenario1 *cen1 = new Cenario1;
   cen1->vetorSimples();
   cen1->vetorStruct();
@@ -32,12 +31,14 @@ int main(){
   cen2->mediana();
   cen2->insercao();
   delete cen2;
-
+ */
   Cenario3 *cen3 = new Cenario3;
   cen3->quicksort();
   cen3->insertion();
-  cen3->merge();
+  cen3->mergesort();
   cen3->heapsort();
-  cen3->shell();
+  cen3->shellsort();
+  delete cen3;
+
   return 0; 
 }

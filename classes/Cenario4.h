@@ -14,7 +14,7 @@ public:
   Cenario4(); 
   ~Cenario4();    
   void sondagemLinear();
-  void sondagemquadratica();
+  void sondagemQuadratica();
   void duploHash();
   void encadeamentoSeparado();
   void encadeamentoCoalescido();

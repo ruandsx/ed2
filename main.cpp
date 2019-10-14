@@ -44,7 +44,7 @@ int main(){
   */
   Cenario4 *cen4 = new Cenario4;
   cen4->sondagemLinear();
-  cen4->sondagemquadratica();
+  cen4->sondagemQuadratica();
   cen4->duploHash();
   cen4->encadeamentoSeparado();
   cen4->encadeamentoCoalescido();

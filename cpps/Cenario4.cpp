@@ -244,7 +244,7 @@ void Cenario4::encadeamentoCoalescido(){
 
         auto start = high_resolution_clock::now();
         for(int k=0; k<tamanhos[i]; k++){
-            coalescido->insereItem(vetor[i], &numColisoes); 
+            coalescido->insereItem(vetor[k], &numColisoes); 
         }
         auto stop = high_resolution_clock::now();
         auto duration = duration_cast<nanoseconds>(stop - start);       

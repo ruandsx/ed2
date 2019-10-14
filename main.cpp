@@ -16,11 +16,13 @@ using namespace std;
 #include "classes/Cenario2.h"
 #include "cpps/Cenario3.cpp"
 #include "classes/Cenario3.h"
+#include "cpps/Cenario4.cpp"
+#include "classes/Cenario4.h"
 
 using namespace std;
 int main(){
   srand(time(NULL));
-  /*
+
   Cenario1 *cen1 = new Cenario1;
   cen1->vetorSimples();
   cen1->vetorStruct();
@@ -31,7 +33,7 @@ int main(){
   cen2->mediana();
   cen2->insercao();
   delete cen2;
-  */
+  
   Cenario3 *cen3 = new Cenario3;
   cen3->quicksort();
   cen3->insertion();
@@ -39,6 +41,15 @@ int main(){
   cen3->heapsort();
   cen3->shellsort();
   delete cen3;
+
+  Cenario4 *cen4 = new Cenario4;
+  cen4->sondagemLinear();
+  cen4->sondagemquadratica();
+  cen4->duploHash();
+  cen4->encadeamentoSeparado();
+  cen4->encadeamentoCoalescido();
+  delete cen4;
+
 
   return 0; 
 }

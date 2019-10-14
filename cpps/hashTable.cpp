@@ -3,7 +3,7 @@
 #include <list> 
 #include <time.h>
 
-#include"hashTable.h"
+#include "../classes/hashTable.h"
 #define PRIMO 13
 
 using namespace std;

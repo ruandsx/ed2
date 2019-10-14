@@ -8,7 +8,7 @@
 #include <string>
 #include <chrono>
 
-#include"endSeparado.h"
+#include "../classes/endSeparado.h"
 
 using namespace std;
 

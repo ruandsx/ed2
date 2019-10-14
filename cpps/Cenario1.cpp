@@ -18,9 +18,19 @@ using namespace std;
 
 
 Cenario1::Cenario1(){
+  Arquivo *arquivo = new Arquivo();
+  arquivo->abrir("C:/Users/ruanl/Desktop/DocumentosFacul/Materias/ED2/assets/saida.txt", 'e');
+  arquivo->gravar("Relatório:\n\nINICIO CENARIO 1!\n");
+  arquivo->fechar();
+  delete arquivo;
 }
 
 Cenario1::~Cenario1(){
+  Arquivo *arquivo = new Arquivo();
+  arquivo->abrir("C:/Users/ruanl/Desktop/DocumentosFacul/Materias/ED2/assets/saida.txt", 'e');
+  arquivo->gravar("\nFIM CENARIO 1!\n");
+  arquivo->fechar();
+  delete arquivo;
 }
 
 void Cenario1::vetorSimples(){
@@ -34,7 +44,7 @@ void Cenario1::vetorSimples(){
   //tamanhos[0] é o N e tamanhos[1,2,3,4] sao os tamanhos dos vetores, logo: 
 
   arquivo->abrir("C:/Users/ruanl/Desktop/DocumentosFacul/Materias/ED2/assets/saida.txt", 'e');
-  arquivo->gravar("Relatório: \n\nVetor Simples:\n");
+  arquivo->gravar("\n\nVetor Simples:\n");
   arquivo->fechar();
 
   for(int i=1; i<=tamanhos[0]; i++){

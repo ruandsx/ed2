@@ -14,9 +14,10 @@
 using namespace std;
 
 
-QuicksortMediana::QuicksortMediana(){
+QuicksortMediana::QuicksortMediana(int tipo){
   trocas = 0;
   comparacoes = 0;
+  medianaTresOuCinco = tipo;
 }
 
 QuicksortMediana::~QuicksortMediana(){
@@ -33,7 +34,7 @@ void QuicksortMediana::ordenar(int arr[], int low, int high){
 
 }
 
-int QuicksortMediana::mediana(int *V, int low, int high)
+int QuicksortMediana::mediana3(int *V, int low, int high)
 {
 
   int a = 0, b = 0, c = 0;
@@ -81,11 +82,69 @@ int QuicksortMediana::mediana(int *V, int low, int high)
     }
 }
 
+int QuicksortMediana::mediana5(int *V, int low, int high)
+{
+
+  int a = 0, b = 0, c = 0, d=0, e=0;
+
+
+
+  a = rand()%(high-low + 1) + low; // gera valores aleatorios entre dois valores (?). Foi o que eu achei na internet
+  //cout << "MINIMO: " << low << " MAXIMO: " << high << " VALOR GERADO: " << a << endl;
+
+  b = rand()%(high-low + 1) + low;
+  //cout <<" VALOR GERADO: " << b << endl;
+
+  c = rand()%(high-low + 1) + low;
+  //cout <<" VALOR GERADO: " << c << endl;
+   d = rand()%(high-low + 1) + low;
+  //cout <<" VALOR GERADO: " << c << endl;
+   e = rand()%(high-low + 1) + low;
+  //cout <<" VALOR GERADO: " << c << endl;
+
+  int vetor[5];
+  vetor[0] = V[a];
+  //cout <<" VALOR GERADO: " << vetor[0] << endl;
+  vetor[1] = V[b];
+  //cout <<" VALOR GERADO: " << vetor[1] << endl;
+  vetor[2] = V[c];
+  //cout <<" VALOR GERADO: " << vetor[2] << endl;
+  vetor[3] = V[d];
+  //cout <<" VALOR GERADO: " << vetor[0] << endl;
+  vetor[4] = V[e];
+
+  int tamanho = 5;
+  int mediana;
+  int aux;
+
+  for(int i=0;i<tamanho-1;i++){
+        for(int j=i+1;j<tamanho;j++){
+            if(vetor[i] > vetor[j]){
+                aux = vetor[i];
+                vetor[i] = vetor[j];
+                vetor[j] = aux;
+            }
+        }
+    }
+
+    mediana = vetor[2];
+
+    for(int i = low; i < high; i++){
+        if(V[i] == mediana){
+            //cout << "VALOR QUE ESTOU RETORNANDO DO INDICE EH: " << i  << " VALOR ESCOLHIDO PARA MEDIANA EH: " << mediana << endl << endl;
+            return i;
+        }
+    }
+}
+
 int QuicksortMediana::particionar(int arr[], int low, int high){
 
     int pivot, pivito;
     if(high - low > 3)
-        pivito = mediana(arr,low,high);
+        if(medianaTresOuCinco==3)
+            pivito = mediana3(arr,low,high);
+        else
+            pivito = mediana5(arr,low,high);
     else{
       // pivot = arr[high];
         pivito = high;

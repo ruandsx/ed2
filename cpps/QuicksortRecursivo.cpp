@@ -69,6 +69,7 @@ void QuicksortRecursivo::criarStruct(int tamanho){
     Avaliacao *avaliacoes = new Avaliacao[tamanho];
     int i=0, id, length;
     int tam = tamanho;
+    float rating = 0;
     string dados, lixo;
     leitor.open("C:/Users/ruanl/Desktop/DocumentosFacul/Materias/ED2/assets/bgg-13m-reviews.csv");
     while(i<tamanho)
@@ -79,9 +80,18 @@ void QuicksortRecursivo::criarStruct(int tamanho){
 
         leitor.seekg(rand() % length, ios::beg); // procurar do inicio ate o fim do leitor
         getline(leitor, lixo);         // joga a linha no lixo
+
         getline(leitor, dados, ',');
         id = atof(dados.c_str());
         avaliacoes[i].id = id;
+
+        getline(leitor, dados, ',');
+        avaliacoes[i].nome = dados;
+
+        getline(leitor, dados, ',');
+        rating = stof(dados.c_str());
+        avaliacoes[i].nota = rating;
+
         i++;
     }
     leitor.close();

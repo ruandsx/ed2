@@ -8,6 +8,6 @@
 struct Avaliacao
 {
       int id;
-      int nota;
+      float nota;
       string nome;
 };

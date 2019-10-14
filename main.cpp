@@ -26,8 +26,8 @@ int main(){
   delete cen1;
 
   Cenario2 *cen2 = new Cenario2;
-  //cen1->recursivo();
-  //cen1->mediana();
+  cen2->recursivo();
+  cen2->mediana();
   cen2->insercao();
   delete cen2;
   return 0;

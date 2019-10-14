@@ -11,6 +11,7 @@ class hashEncadCoal
         unsigned numeroChaves;
         unsigned* tabela;
         unsigned* colisoes;
+        unsigned tamanho;
 
 
     public:

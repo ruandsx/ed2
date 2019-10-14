@@ -4,6 +4,8 @@ using namespace std;
 
 class endSeparado{
     private:
+        int comparacoes = 0; // numero de colisoes
+        int tamanho = 0; // numero de elementos da tabela
         int baldes; // numero de baldes 
         list <int> *tabela; // ponteiro para o array contendo os baldes
         //funcao hashing para retornar o lugar onde a chave deve ser colocada
@@ -16,4 +18,6 @@ class endSeparado{
         endSeparado(int v); //construtor
         void insereItem(int x); //insere uma chave na tabela hash
         void imprimeHashing();
+        int getComparacoes();
+        int getMemoria();
 };

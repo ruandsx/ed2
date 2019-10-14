@@ -201,8 +201,8 @@ void Cenario4::encadeamentoSeparado(){
         auto duration = duration_cast<nanoseconds>(stop - start);       
 
         string1 << "Tempo na execucao " << j+1 << " com tabela tam = " << tamanhos[i] << " : "<< duration.count() << " nanosegundos" << endl;
-        string2 << "Comparacoes de chaves feitas: " << 10 << endl;
-        string3 << "Memoria gasta: " << 10 << endl << endl;
+        string2 << "Comparacoes de chaves feitas: " << e->getComparacoes() << endl;
+        string3 << "Memoria gasta: " << e->getMemoria() << "bytes" << endl << endl;
         
         arquivo->abrir("C:/Users/ruanl/Desktop/DocumentosFacul/Materias/ED2/assets/saida.txt", 'e');
         arquivo->gravar(string1.str());
@@ -251,7 +251,7 @@ void Cenario4::encadeamentoCoalescido(){
 
         string1 << "Tempo na execucao " << j+1 << " com tabela tam = " << tamanhos[i] << " : "<< duration.count() << " nanosegundos" << endl;
         string2 << "Comparacoes de chaves feitas: " << numColisoes << endl;
-        string3 << "Memoria gasta: " << 10 << endl << endl;
+        string3 << "Memoria gasta: " << tamanhos[i]*4 << "bytes" << endl << endl;
         
         arquivo->abrir("C:/Users/ruanl/Desktop/DocumentosFacul/Materias/ED2/assets/saida.txt", 'e');
         arquivo->gravar(string1.str());

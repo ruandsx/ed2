@@ -15,11 +15,17 @@ using namespace std;
 endSeparado::endSeparado(int b){
     this->baldes = b;
     tabela = new list<int>[baldes];
+    comparacoes = 0;
+    tamanho = 0;
 }
 
 void endSeparado::insereItem(int x){
     int index = hashing(x,baldes);
+    if(tabela[index].size()>0){
+      comparacoes++;
+    }
     tabela[index].push_back(x);
+    tamanho++;
 }
 
 void endSeparado::imprimeHashing() { 
@@ -31,3 +37,10 @@ void endSeparado::imprimeHashing() {
   } 
 } 
 
+int endSeparado::getComparacoes(){
+  return comparacoes;
+}
+
+int endSeparado::getMemoria(){
+  return tamanho * 4;
+}

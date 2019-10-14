@@ -1,523 +1,1056 @@
 Relatório:
 
-INICIO CENARIO 4!
+INICIO CENARIO 1!
 
 
-Sondagem Linear:
-Tempo na execucao 1 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 4000bytes
+Vetor Simples:
+Tempo na execucao 1 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 10654
+Trocas feitas: 11488
 
-Tempo na execucao 2 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 4000bytes
+Tempo na execucao 2 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 10654
+Trocas feitas: 11488
 
-Tempo na execucao 3 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 4000bytes
+Tempo na execucao 3 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 10654
+Trocas feitas: 11488
 
-Tempo na execucao 4 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 4000bytes
+Tempo na execucao 4 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 10140
+Trocas feitas: 10970
 
-Tempo na execucao 5 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 4000bytes
+Tempo na execucao 5 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 10140
+Trocas feitas: 10970
 
-Tempo na execucao 1 com tabela tam = 5000 : 1997000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 20000bytes
+Tempo na execucao 1 com vetor tam = 5000 : 3999 microsegundos
+Comparacoes feitas: 141424
+Trocas feitas: 146110
 
-Tempo na execucao 2 com tabela tam = 5000 : 998000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 20000bytes
+Tempo na execucao 2 com vetor tam = 5000 : 4408 microsegundos
+Comparacoes feitas: 141424
+Trocas feitas: 146110
 
-Tempo na execucao 3 com tabela tam = 5000 : 998000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 20000bytes
+Tempo na execucao 3 com vetor tam = 5000 : 4009 microsegundos
+Comparacoes feitas: 141424
+Trocas feitas: 146110
 
-Tempo na execucao 4 com tabela tam = 5000 : 998000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 20000bytes
+Tempo na execucao 4 com vetor tam = 5000 : 4393 microsegundos
+Comparacoes feitas: 141424
+Trocas feitas: 146110
 
-Tempo na execucao 5 com tabela tam = 5000 : 997000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 20000bytes
+Tempo na execucao 5 com vetor tam = 5000 : 997 microsegundos
+Comparacoes feitas: 141424
+Trocas feitas: 146110
 
-Tempo na execucao 1 com tabela tam = 10000 : 4986000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 40000bytes
+Tempo na execucao 1 com vetor tam = 10000 : 1995 microsegundos
+Comparacoes feitas: 498037
+Trocas feitas: 507705
 
-Tempo na execucao 2 com tabela tam = 10000 : 7954000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 40000bytes
+Tempo na execucao 2 com vetor tam = 10000 : 4138 microsegundos
+Comparacoes feitas: 498037
+Trocas feitas: 507705
 
-Tempo na execucao 3 com tabela tam = 10000 : 24936000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 40000bytes
+Tempo na execucao 3 com vetor tam = 10000 : 5368 microsegundos
+Comparacoes feitas: 507791
+Trocas feitas: 517459
 
-Tempo na execucao 4 com tabela tam = 10000 : 6981000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 40000bytes
+Tempo na execucao 4 com vetor tam = 10000 : 4762 microsegundos
+Comparacoes feitas: 507791
+Trocas feitas: 517459
 
-Tempo na execucao 5 com tabela tam = 10000 : 9973000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 40000bytes
+Tempo na execucao 5 com vetor tam = 10000 : 5292 microsegundos
+Comparacoes feitas: 507791
+Trocas feitas: 517459
 
-Tempo na execucao 1 com tabela tam = 50000 : 56368000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 200000bytes
+Tempo na execucao 1 com vetor tam = 50000 : 131880 microsegundos
+Comparacoes feitas: 11406915
+Trocas feitas: 11456583
 
-Tempo na execucao 2 com tabela tam = 50000 : 62509000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 200000bytes
+Tempo na execucao 2 com vetor tam = 50000 : 92037 microsegundos
+Comparacoes feitas: 11423370
+Trocas feitas: 11473038
 
-Tempo na execucao 3 com tabela tam = 50000 : 66777000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 200000bytes
+Tempo na execucao 3 com vetor tam = 50000 : 84312 microsegundos
+Comparacoes feitas: 11469270
+Trocas feitas: 11518938
 
-Tempo na execucao 4 com tabela tam = 50000 : 59840000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 200000bytes
+Tempo na execucao 4 com vetor tam = 50000 : 90542 microsegundos
+Comparacoes feitas: 11443594
+Trocas feitas: 11493262
 
-Tempo na execucao 5 com tabela tam = 50000 : 46897000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 200000bytes
+Tempo na execucao 5 com vetor tam = 50000 : 90938 microsegundos
+Comparacoes feitas: 11227339
+Trocas feitas: 11277007
 
-Tempo na execucao 1 com tabela tam = 100000 : 109351000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 400000bytes
+Tempo na execucao 1 com vetor tam = 100000 : 375960 microsegundos
+Comparacoes feitas: 44822235
+Trocas feitas: 44921903
 
-Tempo na execucao 2 com tabela tam = 100000 : 109351000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 400000bytes
+Tempo na execucao 2 com vetor tam = 100000 : 410137 microsegundos
+Comparacoes feitas: 44675035
+Trocas feitas: 44774703
 
-Tempo na execucao 3 com tabela tam = 100000 : 109350000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 400000bytes
+Tempo na execucao 3 com vetor tam = 100000 : 375077 microsegundos
+Comparacoes feitas: 44584908
+Trocas feitas: 44684576
 
-Tempo na execucao 4 com tabela tam = 100000 : 112940000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 400000bytes
+Tempo na execucao 4 com vetor tam = 100000 : 422689 microsegundos
+Comparacoes feitas: 44171356
+Trocas feitas: 44271024
 
-Tempo na execucao 5 com tabela tam = 100000 : 109350000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 400000bytes
+Tempo na execucao 5 com vetor tam = 100000 : 376799 microsegundos
+Comparacoes feitas: 44417189
+Trocas feitas: 44516857
 
 
 
-Sondagem Quadratica:
-Tempo na execucao 1 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 4000bytes
+Vetor Struct:
+Tempo na execucao 1 com vetor struct tam = 1000 : 20401 microsegundos
+Comparacoes feitas: 7401
+Trocas feitas: 8231
 
-Tempo na execucao 2 com tabela tam = 1000 : 997000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 4000bytes
+Tempo na execucao 2 com vetor struct tam = 1000 : 23029 microsegundos
+Comparacoes feitas: 7401
+Trocas feitas: 8231
 
-Tempo na execucao 3 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 4000bytes
+Tempo na execucao 3 com vetor struct tam = 1000 : 24640 microsegundos
+Comparacoes feitas: 7401
+Trocas feitas: 8231
 
-Tempo na execucao 4 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 4000bytes
+Tempo na execucao 4 com vetor struct tam = 1000 : 29393 microsegundos
+Comparacoes feitas: 7401
+Trocas feitas: 8231
 
-Tempo na execucao 5 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 4000bytes
+Tempo na execucao 5 com vetor struct tam = 1000 : 25090 microsegundos
+Comparacoes feitas: 7401
+Trocas feitas: 8231
 
-Tempo na execucao 1 com tabela tam = 5000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 20000bytes
+Tempo na execucao 1 com vetor struct tam = 5000 : 190275 microsegundos
+Comparacoes feitas: 135784
+Trocas feitas: 140463
 
-Tempo na execucao 2 com tabela tam = 5000 : 15623000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 20000bytes
+Tempo na execucao 2 com vetor struct tam = 5000 : 224625 microsegundos
+Comparacoes feitas: 130750
+Trocas feitas: 135432
 
-Tempo na execucao 3 com tabela tam = 5000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 20000bytes
+Tempo na execucao 3 com vetor struct tam = 5000 : 170381 microsegundos
+Comparacoes feitas: 130750
+Trocas feitas: 135432
 
-Tempo na execucao 4 com tabela tam = 5000 : 4019000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 20000bytes
+Tempo na execucao 4 com vetor struct tam = 5000 : 163635 microsegundos
+Comparacoes feitas: 130750
+Trocas feitas: 135432
 
-Tempo na execucao 5 com tabela tam = 5000 : 1971000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 20000bytes
+Tempo na execucao 5 com vetor struct tam = 5000 : 156440 microsegundos
+Comparacoes feitas: 130750
+Trocas feitas: 135432
 
-Tempo na execucao 1 com tabela tam = 10000 : 15617000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 40000bytes
+Tempo na execucao 1 com vetor struct tam = 10000 : 414731 microsegundos
+Comparacoes feitas: 485406
+Trocas feitas: 495073
 
-Tempo na execucao 2 com tabela tam = 10000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 40000bytes
+Tempo na execucao 2 com vetor struct tam = 10000 : 373823 microsegundos
+Comparacoes feitas: 500609
+Trocas feitas: 510276
 
-Tempo na execucao 3 com tabela tam = 10000 : 5984000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 40000bytes
+Tempo na execucao 3 com vetor struct tam = 10000 : 416412 microsegundos
+Comparacoes feitas: 500609
+Trocas feitas: 510276
 
-Tempo na execucao 4 com tabela tam = 10000 : 15621000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 40000bytes
+Tempo na execucao 4 com vetor struct tam = 10000 : 457903 microsegundos
+Comparacoes feitas: 500609
+Trocas feitas: 510276
 
-Tempo na execucao 5 com tabela tam = 10000 : 16974000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 40000bytes
+Tempo na execucao 5 com vetor struct tam = 10000 : 404541 microsegundos
+Comparacoes feitas: 499881
+Trocas feitas: 509548
 
-Tempo na execucao 1 com tabela tam = 50000 : 109382000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 200000bytes
+Tempo na execucao 1 com vetor struct tam = 50000 : 4157765 microsegundos
+Comparacoes feitas: 11376485
+Trocas feitas: 11426152
 
-Tempo na execucao 2 com tabela tam = 50000 : 109319000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 200000bytes
+Tempo na execucao 2 com vetor struct tam = 50000 : 4963293 microsegundos
+Comparacoes feitas: 11061484
+Trocas feitas: 11111151
 
-Tempo na execucao 3 com tabela tam = 50000 : 126884000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 200000bytes
+Tempo na execucao 3 com vetor struct tam = 50000 : 4036936 microsegundos
+Comparacoes feitas: 11222798
+Trocas feitas: 11272465
 
-Tempo na execucao 4 com tabela tam = 50000 : 124966000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 200000bytes
+Tempo na execucao 4 com vetor struct tam = 50000 : 3999331 microsegundos
+Comparacoes feitas: 11182556
+Trocas feitas: 11232223
 
-Tempo na execucao 5 com tabela tam = 50000 : 109356000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 200000bytes
+Tempo na execucao 5 com vetor struct tam = 50000 : 4268499 microsegundos
+Comparacoes feitas: 11278872
+Trocas feitas: 11328539
 
-Tempo na execucao 1 com tabela tam = 100000 : 579686000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 400000bytes
+Tempo na execucao 1 com vetor struct tam = 100000 : 13410361 microsegundos
+Comparacoes feitas: 44739644
+Trocas feitas: 44839311
 
-Tempo na execucao 2 com tabela tam = 100000 : 757860000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 400000bytes
+Tempo na execucao 2 com vetor struct tam = 100000 : 15090039 microsegundos
+Comparacoes feitas: 44273282
+Trocas feitas: 44372949
 
-Tempo na execucao 3 com tabela tam = 100000 : 537416000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 400000bytes
+Tempo na execucao 3 com vetor struct tam = 100000 : 13399995 microsegundos
+Comparacoes feitas: 44496706
+Trocas feitas: 44596373
 
-Tempo na execucao 4 com tabela tam = 100000 : 452326000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 400000bytes
+Tempo na execucao 4 com vetor struct tam = 100000 : 19461818 microsegundos
+Comparacoes feitas: 44459157
+Trocas feitas: 44558824
 
-Tempo na execucao 5 com tabela tam = 100000 : 463334000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 400000bytes
+Tempo na execucao 5 com vetor struct tam = 100000 : 24554118 microsegundos
+Comparacoes feitas: 44395288
+Trocas feitas: 44494955
 
 
+FIM CENARIO 1!
 
-Duplo Hash:
-Tempo na execucao 1 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 7516bytes
 
-Tempo na execucao 2 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 7516bytes
+INICIO CENARIO 2!
 
-Tempo na execucao 3 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 7516bytes
 
-Tempo na execucao 4 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 7516bytes
+QuicksortRecursivo:
 
-Tempo na execucao 5 com tabela tam = 1000 : 998000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 7516bytes
+Tempo na execucao 1 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8286
+Trocas feitas: 9114
 
-Tempo na execucao 1 com tabela tam = 5000 : 15622000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 39496bytes
+Tempo na execucao 2 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8286
+Trocas feitas: 9114
 
-Tempo na execucao 2 com tabela tam = 5000 : 30735000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 39496bytes
+Tempo na execucao 3 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8286
+Trocas feitas: 9114
 
-Tempo na execucao 3 com tabela tam = 5000 : 14141000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 39496bytes
+Tempo na execucao 4 com vetor tam = 1000 : 1028 microsegundos
+Comparacoes feitas: 8286
+Trocas feitas: 9114
 
-Tempo na execucao 4 com tabela tam = 5000 : 15957000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 39496bytes
+Tempo na execucao 5 com vetor tam = 1000 : 543 microsegundos
+Comparacoes feitas: 8286
+Trocas feitas: 9114
 
-Tempo na execucao 5 com tabela tam = 5000 : 14160000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 39500bytes
+Tempo na execucao 1 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 127910
+Trocas feitas: 132590
 
-Tempo na execucao 1 com tabela tam = 10000 : 62516000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 79492bytes
+Tempo na execucao 2 com vetor tam = 5000 : 4736 microsegundos
+Comparacoes feitas: 127910
+Trocas feitas: 132590
 
-Tempo na execucao 2 com tabela tam = 10000 : 62520000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 79492bytes
+Tempo na execucao 3 com vetor tam = 5000 : 3980 microsegundos
+Comparacoes feitas: 127910
+Trocas feitas: 132590
 
-Tempo na execucao 3 com tabela tam = 10000 : 46862000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 79492bytes
+Tempo na execucao 4 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 127864
+Trocas feitas: 132546
 
-Tempo na execucao 4 com tabela tam = 10000 : 62517000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 79492bytes
+Tempo na execucao 5 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 127864
+Trocas feitas: 132546
 
-Tempo na execucao 5 com tabela tam = 10000 : 62492000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 79464bytes
+Tempo na execucao 1 com vetor tam = 10000 : 4288 microsegundos
+Comparacoes feitas: 489448
+Trocas feitas: 499115
 
-Tempo na execucao 1 com tabela tam = 50000 : 1624538000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 399464bytes
+Tempo na execucao 2 com vetor tam = 10000 : 6616 microsegundos
+Comparacoes feitas: 489448
+Trocas feitas: 499115
 
-Tempo na execucao 2 com tabela tam = 50000 : 1728552000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 399444bytes
+Tempo na execucao 3 com vetor tam = 10000 : 13782 microsegundos
+Comparacoes feitas: 493260
+Trocas feitas: 502927
 
-Tempo na execucao 3 com tabela tam = 50000 : 1635124000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 399496bytes
+Tempo na execucao 4 com vetor tam = 10000 : 3315 microsegundos
+Comparacoes feitas: 493260
+Trocas feitas: 502927
 
-Tempo na execucao 4 com tabela tam = 50000 : 2854375000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 399464bytes
+Tempo na execucao 5 com vetor tam = 10000 : 5942 microsegundos
+Comparacoes feitas: 493260
+Trocas feitas: 502927
 
-Tempo na execucao 5 com tabela tam = 50000 : 2071461000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 399480bytes
+Tempo na execucao 1 com vetor tam = 50000 : 146787 microsegundos
+Comparacoes feitas: 11150329
+Trocas feitas: 11199996
 
-Tempo na execucao 1 com tabela tam = 100000 : 7352224000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 799444bytes
+Tempo na execucao 2 com vetor tam = 50000 : 134286 microsegundos
+Comparacoes feitas: 11099852
+Trocas feitas: 11149519
 
-Tempo na execucao 2 com tabela tam = 100000 : 7046013000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 799452bytes
+Tempo na execucao 3 com vetor tam = 50000 : 188989 microsegundos
+Comparacoes feitas: 11406781
+Trocas feitas: 11456448
 
-Tempo na execucao 3 com tabela tam = 100000 : 6725967000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 799440bytes
+Tempo na execucao 4 com vetor tam = 50000 : 128334 microsegundos
+Comparacoes feitas: 11153167
+Trocas feitas: 11202834
 
-Tempo na execucao 4 com tabela tam = 100000 : 6700808000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 799508bytes
+Tempo na execucao 5 com vetor tam = 50000 : 148314 microsegundos
+Comparacoes feitas: 11327434
+Trocas feitas: 11377101
 
-Tempo na execucao 5 com tabela tam = 100000 : 6701598000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 799488bytes
+Tempo na execucao 1 com vetor tam = 100000 : 522608 microsegundos
+Comparacoes feitas: 44374897
+Trocas feitas: 44474564
 
+Tempo na execucao 2 com vetor tam = 100000 : 809957 microsegundos
+Comparacoes feitas: 44623384
+Trocas feitas: 44723051
 
+Tempo na execucao 3 com vetor tam = 100000 : 526576 microsegundos
+Comparacoes feitas: 44382881
+Trocas feitas: 44482548
 
-Encadeamento Separado:
-Tempo na execucao 1 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 4 com vetor tam = 100000 : 411162 microsegundos
+Comparacoes feitas: 44281446
+Trocas feitas: 44381113
 
-Tempo na execucao 2 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 5 com vetor tam = 100000 : 486266 microsegundos
+Comparacoes feitas: 44326464
+Trocas feitas: 44426131
 
-Tempo na execucao 3 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
 
-Tempo na execucao 4 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
 
-Tempo na execucao 5 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+QuicksortMediana:
 
-Tempo na execucao 1 com tabela tam = 5000 : 996000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 1 com m= 5 e vetor tam = 1000 : 998 microsegundos
+Comparacoes feitas: 8626
+Trocas feitas: 10284
 
-Tempo na execucao 2 com tabela tam = 5000 : 997000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 2 com m= 3 e vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8395
+Trocas feitas: 10061
 
-Tempo na execucao 3 com tabela tam = 5000 : 998000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 3 com m= 5 e vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8626
+Trocas feitas: 10284
 
-Tempo na execucao 4 com tabela tam = 5000 : 998000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 4 com m= 3 e vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8395
+Trocas feitas: 10061
 
-Tempo na execucao 5 com tabela tam = 5000 : 966000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 5 com m= 5 e vetor tam = 1000 : 998 microsegundos
+Comparacoes feitas: 8626
+Trocas feitas: 10284
 
-Tempo na execucao 1 com tabela tam = 10000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 1 com m= 5 e vetor tam = 5000 : 998 microsegundos
+Comparacoes feitas: 145373
+Trocas feitas: 154751
 
-Tempo na execucao 2 com tabela tam = 10000 : 1000000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 2 com m= 3 e vetor tam = 5000 : 5213 microsegundos
+Comparacoes feitas: 141296
+Trocas feitas: 150672
 
-Tempo na execucao 3 com tabela tam = 10000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 3 com m= 5 e vetor tam = 5000 : 2526 microsegundos
+Comparacoes feitas: 145373
+Trocas feitas: 154751
 
-Tempo na execucao 4 com tabela tam = 10000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 4 com m= 3 e vetor tam = 5000 : 5110 microsegundos
+Comparacoes feitas: 141296
+Trocas feitas: 150672
 
-Tempo na execucao 5 com tabela tam = 10000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 5 com m= 5 e vetor tam = 5000 : 1741 microsegundos
+Comparacoes feitas: 145373
+Trocas feitas: 154751
 
-Tempo na execucao 1 com tabela tam = 50000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 1 com m= 5 e vetor tam = 10000 : 4040 microsegundos
+Comparacoes feitas: 512723
+Trocas feitas: 532059
 
-Tempo na execucao 2 com tabela tam = 50000 : 8327000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 2 com m= 3 e vetor tam = 10000 : 7722 microsegundos
+Comparacoes feitas: 490151
+Trocas feitas: 509485
 
-Tempo na execucao 3 com tabela tam = 50000 : 9972000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 3 com m= 5 e vetor tam = 10000 : 5075 microsegundos
+Comparacoes feitas: 488374
+Trocas feitas: 507708
 
-Tempo na execucao 4 com tabela tam = 50000 : 16954000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 4 com m= 3 e vetor tam = 10000 : 4031 microsegundos
+Comparacoes feitas: 490151
+Trocas feitas: 509485
 
-Tempo na execucao 5 com tabela tam = 50000 : 8977000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 5 com m= 5 e vetor tam = 10000 : 8094 microsegundos
+Comparacoes feitas: 488374
+Trocas feitas: 507708
 
-Tempo na execucao 1 com tabela tam = 100000 : 15623000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 1 com m= 5 e vetor tam = 50000 : 107136 microsegundos
+Comparacoes feitas: 11535895
+Trocas feitas: 11635229
 
-Tempo na execucao 2 com tabela tam = 100000 : 15621000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 2 com m= 3 e vetor tam = 50000 : 95552 microsegundos
+Comparacoes feitas: 11469913
+Trocas feitas: 11569247
 
-Tempo na execucao 3 com tabela tam = 100000 : 15622000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 3 com m= 5 e vetor tam = 50000 : 104358 microsegundos
+Comparacoes feitas: 11465104
+Trocas feitas: 11564438
 
-Tempo na execucao 4 com tabela tam = 100000 : 15624000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 4 com m= 3 e vetor tam = 50000 : 112103 microsegundos
+Comparacoes feitas: 11207124
+Trocas feitas: 11306458
 
-Tempo na execucao 5 com tabela tam = 100000 : 15622000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 5 com m= 5 e vetor tam = 50000 : 92990 microsegundos
+Comparacoes feitas: 11388228
+Trocas feitas: 11487562
 
+Tempo na execucao 1 com m= 5 e vetor tam = 100000 : 356253 microsegundos
+Comparacoes feitas: 44240564
+Trocas feitas: 44439898
 
+Tempo na execucao 2 com m= 3 e vetor tam = 100000 : 398538 microsegundos
+Comparacoes feitas: 45071296
+Trocas feitas: 45270630
 
-Encadeamento Coalescido:
-Tempo na execucao 1 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 999
-Memoria gasta: 10
+Tempo na execucao 3 com m= 5 e vetor tam = 100000 : 364896 microsegundos
+Comparacoes feitas: 44827763
+Trocas feitas: 45027097
 
-Tempo na execucao 2 com tabela tam = 1000 : 15614000 nanosegundos
-Comparacoes de chaves feitas: 1998
-Memoria gasta: 10
+Tempo na execucao 4 com m= 3 e vetor tam = 100000 : 363930 microsegundos
+Comparacoes feitas: 44542176
+Trocas feitas: 44741510
 
-Tempo na execucao 3 com tabela tam = 1000 : 2989000 nanosegundos
-Comparacoes de chaves feitas: 2997
-Memoria gasta: 10
+Tempo na execucao 5 com m= 5 e vetor tam = 100000 : 579367 microsegundos
+Comparacoes feitas: 44596565
+Trocas feitas: 44795899
 
-Tempo na execucao 4 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 3996
-Memoria gasta: 10
 
-Tempo na execucao 5 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 4995
-Memoria gasta: 10
 
-Tempo na execucao 1 com tabela tam = 5000 : 83271000 nanosegundos
-Comparacoes de chaves feitas: 4999
-Memoria gasta: 10
+QuicksortInsercao:
 
-Tempo na execucao 2 com tabela tam = 5000 : 75393000 nanosegundos
-Comparacoes de chaves feitas: 9998
-Memoria gasta: 10
+Tempo na execucao 1 com m= 100 e vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 2997
+Trocas feitas: 3017
 
-Tempo na execucao 3 com tabela tam = 5000 : 76608000 nanosegundos
-Comparacoes de chaves feitas: 14997
-Memoria gasta: 10
+Tempo na execucao 2 com m= 10 e vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 7742
+Trocas feitas: 8053
 
-Tempo na execucao 4 com tabela tam = 5000 : 84899000 nanosegundos
-Comparacoes de chaves feitas: 19996
-Memoria gasta: 10
+Tempo na execucao 3 com m= 100 e vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 2997
+Trocas feitas: 3017
 
-Tempo na execucao 5 com tabela tam = 5000 : 68244000 nanosegundos
-Comparacoes de chaves feitas: 24995
-Memoria gasta: 10
+Tempo na execucao 4 com m= 10 e vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 7742
+Trocas feitas: 8053
 
-Tempo na execucao 1 com tabela tam = 10000 : 283486000 nanosegundos
-Comparacoes de chaves feitas: 9999
-Memoria gasta: 10
+Tempo na execucao 5 com m= 100 e vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 2997
+Trocas feitas: 3017
 
-Tempo na execucao 2 com tabela tam = 10000 : 305456000 nanosegundos
-Comparacoes de chaves feitas: 19998
-Memoria gasta: 10
+Tempo na execucao 1 com m= 100 e vetor tam = 5000 : 4031 microsegundos
+Comparacoes feitas: 49629
+Trocas feitas: 49919
 
-Tempo na execucao 3 com tabela tam = 10000 : 305133000 nanosegundos
-Comparacoes de chaves feitas: 29997
-Memoria gasta: 10
+Tempo na execucao 2 com m= 10 e vetor tam = 5000 : 3162 microsegundos
+Comparacoes feitas: 129604
+Trocas feitas: 132644
 
-Tempo na execucao 4 com tabela tam = 10000 : 303302000 nanosegundos
-Comparacoes de chaves feitas: 39996
-Memoria gasta: 10
+Tempo na execucao 3 com m= 100 e vetor tam = 5000 : 2035 microsegundos
+Comparacoes feitas: 44593
+Trocas feitas: 44865
 
-Tempo na execucao 5 com tabela tam = 10000 : 304992000 nanosegundos
-Comparacoes de chaves feitas: 49995
-Memoria gasta: 10
+Tempo na execucao 4 com m= 10 e vetor tam = 5000 : 4426 microsegundos
+Comparacoes feitas: 124027
+Trocas feitas: 127088
 
-Tempo na execucao 1 com tabela tam = 50000 : 7351087000 nanosegundos
-Comparacoes de chaves feitas: 49999
-Memoria gasta: 10
+Tempo na execucao 5 com m= 100 e vetor tam = 5000 : 1731 microsegundos
+Comparacoes feitas: 44593
+Trocas feitas: 44865
 
-Tempo na execucao 2 com tabela tam = 50000 : 7349494000 nanosegundos
-Comparacoes de chaves feitas: 99998
-Memoria gasta: 10
+Tempo na execucao 1 com m= 100 e vetor tam = 10000 : 8115 microsegundos
+Comparacoes feitas: 249514
+Trocas feitas: 250757
 
-Tempo na execucao 3 com tabela tam = 50000 : 7355481000 nanosegundos
-Comparacoes de chaves feitas: 149997
-Memoria gasta: 10
+Tempo na execucao 2 com m= 10 e vetor tam = 10000 : 7068 microsegundos
+Comparacoes feitas: 473215
+Trocas feitas: 480597
 
-Tempo na execucao 4 com tabela tam = 50000 : 7363545000 nanosegundos
-Comparacoes de chaves feitas: 199996
-Memoria gasta: 10
+Tempo na execucao 3 com m= 100 e vetor tam = 10000 : 10021 microsegundos
+Comparacoes feitas: 257366
+Trocas feitas: 258657
 
-Tempo na execucao 5 com tabela tam = 50000 : 7366171000 nanosegundos
-Comparacoes de chaves feitas: 249995
-Memoria gasta: 10
+Tempo na execucao 4 com m= 10 e vetor tam = 10000 : 8819 microsegundos
+Comparacoes feitas: 475442
+Trocas feitas: 482783
 
-Tempo na execucao 1 com tabela tam = 100000 : 29478006000 nanosegundos
-Comparacoes de chaves feitas: 99999
-Memoria gasta: 10
+Tempo na execucao 5 com m= 100 e vetor tam = 10000 : 6554 microsegundos
+Comparacoes feitas: 257366
+Trocas feitas: 258657
 
-Tempo na execucao 2 com tabela tam = 100000 : 31195017000 nanosegundos
-Comparacoes de chaves feitas: 199998
-Memoria gasta: 10
+Tempo na execucao 1 com m= 100 e vetor tam = 50000 : 195455 microsegundos
+Comparacoes feitas: 10572654
+Trocas feitas: 10600050
 
-Tempo na execucao 3 com tabela tam = 100000 : 29357512000 nanosegundos
-Comparacoes de chaves feitas: 299997
-Memoria gasta: 10
+Tempo na execucao 2 com m= 10 e vetor tam = 50000 : 255393 microsegundos
+Comparacoes feitas: 11465004
+Trocas feitas: 11512007
 
-Tempo na execucao 4 com tabela tam = 100000 : 29177048000 nanosegundos
-Comparacoes de chaves feitas: 399996
-Memoria gasta: 10
+Tempo na execucao 3 com m= 100 e vetor tam = 50000 : 188158 microsegundos
+Comparacoes feitas: 10343192
+Trocas feitas: 10370583
 
-Tempo na execucao 5 com tabela tam = 100000 : 29244117000 nanosegundos
-Comparacoes de chaves feitas: 499995
-Memoria gasta: 10
+Tempo na execucao 4 com m= 10 e vetor tam = 50000 : 221385 microsegundos
+Comparacoes feitas: 11302842
+Trocas feitas: 11349845
 
+Tempo na execucao 5 com m= 100 e vetor tam = 50000 : 203734 microsegundos
+Comparacoes feitas: 10384531
+Trocas feitas: 10411876
 
-FIM CENARIO 4!
+Tempo na execucao 1 com m= 100 e vetor tam = 100000 : 937528 microsegundos
+Comparacoes feitas: 43207750
+Trocas feitas: 43277185
+
+Tempo na execucao 2 com m= 10 e vetor tam = 100000 : 891249 microsegundos
+Comparacoes feitas: 44336626
+Trocas feitas: 44433629
+
+Tempo na execucao 3 com m= 100 e vetor tam = 100000 : 951507 microsegundos
+Comparacoes feitas: 43457568
+Trocas feitas: 43527033
+
+Tempo na execucao 4 com m= 10 e vetor tam = 100000 : 1023914 microsegundos
+Comparacoes feitas: 45007924
+Trocas feitas: 45104927
+
+Tempo na execucao 5 com m= 100 e vetor tam = 100000 : 958562 microsegundos
+Comparacoes feitas: 43366587
+Trocas feitas: 43436093
+
+
+FIM CENARIO 2
+
+
+INICIO CENARIO 3!
+
+
+QuickSort:
+
+Tempo na execucao 1 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 9999
+Trocas feitas: 10821
+
+Tempo na execucao 2 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 9109
+Trocas feitas: 9935
+
+Tempo na execucao 3 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 9109
+Trocas feitas: 9935
+
+Tempo na execucao 4 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 9109
+Trocas feitas: 9935
+
+Tempo na execucao 5 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 9109
+Trocas feitas: 9935
+
+Tempo na execucao 1 com vetor tam = 5000 : 2633 microsegundos
+Comparacoes feitas: 138464
+Trocas feitas: 143145
+
+Tempo na execucao 2 com vetor tam = 5000 : 4001 microsegundos
+Comparacoes feitas: 138464
+Trocas feitas: 143145
+
+Tempo na execucao 3 com vetor tam = 5000 : 4030 microsegundos
+Comparacoes feitas: 138464
+Trocas feitas: 143145
+
+Tempo na execucao 4 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 138464
+Trocas feitas: 143145
+
+Tempo na execucao 5 com vetor tam = 5000 : 4001 microsegundos
+Comparacoes feitas: 138464
+Trocas feitas: 143145
+
+Tempo na execucao 1 com vetor tam = 10000 : 8035 microsegundos
+Comparacoes feitas: 497301
+Trocas feitas: 506968
+
+Tempo na execucao 2 com vetor tam = 10000 : 8824 microsegundos
+Comparacoes feitas: 497301
+Trocas feitas: 506968
+
+Tempo na execucao 3 com vetor tam = 10000 : 9629 microsegundos
+Comparacoes feitas: 497301
+Trocas feitas: 506968
+
+Tempo na execucao 4 com vetor tam = 10000 : 6828 microsegundos
+Comparacoes feitas: 499547
+Trocas feitas: 509214
+
+Tempo na execucao 5 com vetor tam = 10000 : 11221 microsegundos
+Comparacoes feitas: 499547
+Trocas feitas: 509214
+
+Tempo na execucao 1 com vetor tam = 50000 : 163016 microsegundos
+Comparacoes feitas: 11218563
+Trocas feitas: 11268230
+
+Tempo na execucao 2 com vetor tam = 50000 : 183189 microsegundos
+Comparacoes feitas: 11346817
+Trocas feitas: 11396484
+
+Tempo na execucao 3 com vetor tam = 50000 : 186369 microsegundos
+Comparacoes feitas: 11335033
+Trocas feitas: 11384700
+
+Tempo na execucao 4 com vetor tam = 50000 : 121249 microsegundos
+Comparacoes feitas: 11211064
+Trocas feitas: 11260731
+
+Tempo na execucao 5 com vetor tam = 50000 : 202767 microsegundos
+Comparacoes feitas: 11336872
+Trocas feitas: 11386539
+
+Tempo na execucao 1 com vetor tam = 100000 : 629844 microsegundos
+Comparacoes feitas: 44955803
+Trocas feitas: 45055470
+
+Tempo na execucao 2 com vetor tam = 100000 : 584258 microsegundos
+Comparacoes feitas: 44550312
+Trocas feitas: 44649979
+
+Tempo na execucao 3 com vetor tam = 100000 : 608758 microsegundos
+Comparacoes feitas: 44832783
+Trocas feitas: 44932450
+
+Tempo na execucao 4 com vetor tam = 100000 : 656578 microsegundos
+Comparacoes feitas: 44107390
+Trocas feitas: 44207057
+
+Tempo na execucao 5 com vetor tam = 100000 : 578548 microsegundos
+Comparacoes feitas: 44513694
+Trocas feitas: 44613361
+
+
+
+InsertionSort:
+
+Tempo na execucao 1 com vetor tam = 1000 : 997 microsegundos
+Comparacoes feitas: 245590
+Trocas feitas: 245590
+
+Tempo na execucao 2 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 245590
+Trocas feitas: 245590
+
+Tempo na execucao 3 com vetor tam = 1000 : 4049 microsegundos
+Comparacoes feitas: 245590
+Trocas feitas: 245590
+
+Tempo na execucao 4 com vetor tam = 1000 : 998 microsegundos
+Comparacoes feitas: 245319
+Trocas feitas: 245319
+
+Tempo na execucao 5 com vetor tam = 1000 : 1994 microsegundos
+Comparacoes feitas: 245319
+Trocas feitas: 245319
+
+Tempo na execucao 1 com vetor tam = 5000 : 38677 microsegundos
+Comparacoes feitas: 6210703
+Trocas feitas: 6210703
+
+Tempo na execucao 2 com vetor tam = 5000 : 35383 microsegundos
+Comparacoes feitas: 6210703
+Trocas feitas: 6210703
+
+Tempo na execucao 3 com vetor tam = 5000 : 32212 microsegundos
+Comparacoes feitas: 6210703
+Trocas feitas: 6210703
+
+Tempo na execucao 4 com vetor tam = 5000 : 33139 microsegundos
+Comparacoes feitas: 6210703
+Trocas feitas: 6210703
+
+Tempo na execucao 5 com vetor tam = 5000 : 35359 microsegundos
+Comparacoes feitas: 6202424
+Trocas feitas: 6202424
+
+Tempo na execucao 1 com vetor tam = 10000 : 156951 microsegundos
+Comparacoes feitas: 24735461
+Trocas feitas: 24735461
+
+Tempo na execucao 2 com vetor tam = 10000 : 122361 microsegundos
+Comparacoes feitas: 24735461
+Trocas feitas: 24735461
+
+Tempo na execucao 3 com vetor tam = 10000 : 127309 microsegundos
+Comparacoes feitas: 24858382
+Trocas feitas: 24858382
+
+Tempo na execucao 4 com vetor tam = 10000 : 162382 microsegundos
+Comparacoes feitas: 24858382
+Trocas feitas: 24858382
+
+Tempo na execucao 5 com vetor tam = 10000 : 155122 microsegundos
+Comparacoes feitas: 24884411
+Trocas feitas: 24884411
+
+Tempo na execucao 1 com vetor tam = 50000 : 3719052 microsegundos
+Comparacoes feitas: 617669920
+Trocas feitas: 617669920
+
+Tempo na execucao 2 com vetor tam = 50000 : 3942365 microsegundos
+Comparacoes feitas: 618282312
+Trocas feitas: 618282312
+
+Tempo na execucao 3 com vetor tam = 50000 : 3961151 microsegundos
+Comparacoes feitas: 618004560
+Trocas feitas: 618004560
+
+Tempo na execucao 4 com vetor tam = 50000 : 3559887 microsegundos
+Comparacoes feitas: 619268620
+Trocas feitas: 619268620
+
+Tempo na execucao 5 com vetor tam = 50000 : 3932496 microsegundos
+Comparacoes feitas: 617577852
+Trocas feitas: 617577852
+
+Tempo na execucao 1 com vetor tam = 100000 : 15790406 microsegundos
+Comparacoes feitas: -1821965671
+Trocas feitas: -1821965671
+
+Tempo na execucao 2 com vetor tam = 100000 : 16858882 microsegundos
+Comparacoes feitas: -1816335183
+Trocas feitas: -1816335183
+
+Tempo na execucao 3 com vetor tam = 100000 : 12868439 microsegundos
+Comparacoes feitas: -1816209721
+Trocas feitas: -1816209721
+
+Tempo na execucao 4 com vetor tam = 100000 : 13504642 microsegundos
+Comparacoes feitas: -1823525052
+Trocas feitas: -1823525052
+
+Tempo na execucao 5 com vetor tam = 100000 : 11859211 microsegundos
+Comparacoes feitas: -1821608340
+Trocas feitas: -1821608340
+
+
+
+MergeSort:
+
+Tempo na execucao 1 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8713
+Trocas feitas: 19952
+
+Tempo na execucao 2 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8713
+Trocas feitas: 19952
+
+Tempo na execucao 3 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8713
+Trocas feitas: 19952
+
+Tempo na execucao 4 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8708
+Trocas feitas: 19952
+
+Tempo na execucao 5 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 8708
+Trocas feitas: 19952
+
+Tempo na execucao 1 com vetor tam = 5000 : 996 microsegundos
+Comparacoes feitas: 55255
+Trocas feitas: 123616
+
+Tempo na execucao 2 com vetor tam = 5000 : 4011 microsegundos
+Comparacoes feitas: 55255
+Trocas feitas: 123616
+
+Tempo na execucao 3 com vetor tam = 5000 : 1084 microsegundos
+Comparacoes feitas: 55255
+Trocas feitas: 123616
+
+Tempo na execucao 4 com vetor tam = 5000 : 572 microsegundos
+Comparacoes feitas: 55255
+Trocas feitas: 123616
+
+Tempo na execucao 5 com vetor tam = 5000 : 1027 microsegundos
+Comparacoes feitas: 55255
+Trocas feitas: 123616
+
+Tempo na execucao 1 com vetor tam = 10000 : 4016 microsegundos
+Comparacoes feitas: 120548
+Trocas feitas: 267232
+
+Tempo na execucao 2 com vetor tam = 10000 : 0 microsegundos
+Comparacoes feitas: 120455
+Trocas feitas: 267232
+
+Tempo na execucao 3 com vetor tam = 10000 : 997 microsegundos
+Comparacoes feitas: 120455
+Trocas feitas: 267232
+
+Tempo na execucao 4 com vetor tam = 10000 : 4180 microsegundos
+Comparacoes feitas: 120455
+Trocas feitas: 267232
+
+Tempo na execucao 5 com vetor tam = 10000 : 1982 microsegundos
+Comparacoes feitas: 120455
+Trocas feitas: 267232
+
+Tempo na execucao 1 com vetor tam = 50000 : 10008 microsegundos
+Comparacoes feitas: 718053
+Trocas feitas: 1568928
+
+Tempo na execucao 2 com vetor tam = 50000 : 14441 microsegundos
+Comparacoes feitas: 718247
+Trocas feitas: 1568928
+
+Tempo na execucao 3 com vetor tam = 50000 : 10162 microsegundos
+Comparacoes feitas: 717894
+Trocas feitas: 1568928
+
+Tempo na execucao 4 com vetor tam = 50000 : 10265 microsegundos
+Comparacoes feitas: 717903
+Trocas feitas: 1568928
+
+Tempo na execucao 5 com vetor tam = 50000 : 13465 microsegundos
+Comparacoes feitas: 717619
+Trocas feitas: 1568928
+
+Tempo na execucao 1 com vetor tam = 100000 : 29032 microsegundos
+Comparacoes feitas: 1535948
+Trocas feitas: 3337856
+
+Tempo na execucao 2 com vetor tam = 100000 : 22729 microsegundos
+Comparacoes feitas: 1535768
+Trocas feitas: 3337856
+
+Tempo na execucao 3 com vetor tam = 100000 : 24246 microsegundos
+Comparacoes feitas: 1535901
+Trocas feitas: 3337856
+
+Tempo na execucao 4 com vetor tam = 100000 : 23547 microsegundos
+Comparacoes feitas: 1535707
+Trocas feitas: 3337856
+
+Tempo na execucao 5 com vetor tam = 100000 : 45534 microsegundos
+Comparacoes feitas: 1535710
+Trocas feitas: 3337856
+
+
+
+HeapSort:
+
+Tempo na execucao 1 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 12100
+Trocas feitas: 10588
+
+Tempo na execucao 2 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 12100
+Trocas feitas: 10588
+
+Tempo na execucao 3 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 12100
+Trocas feitas: 10588
+
+Tempo na execucao 4 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 12100
+Trocas feitas: 10588
+
+Tempo na execucao 5 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 12100
+Trocas feitas: 10588
+
+Tempo na execucao 1 com vetor tam = 5000 : 4143 microsegundos
+Comparacoes feitas: 77599
+Trocas feitas: 64470
+
+Tempo na execucao 2 com vetor tam = 5000 : 1031 microsegundos
+Comparacoes feitas: 77644
+Trocas feitas: 64455
+
+Tempo na execucao 3 com vetor tam = 5000 : 997 microsegundos
+Comparacoes feitas: 77644
+Trocas feitas: 64455
+
+Tempo na execucao 4 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 77644
+Trocas feitas: 64455
+
+Tempo na execucao 5 com vetor tam = 5000 : 1312 microsegundos
+Comparacoes feitas: 77644
+Trocas feitas: 64455
+
+Tempo na execucao 1 com vetor tam = 10000 : 0 microsegundos
+Comparacoes feitas: 170208
+Trocas feitas: 138885
+
+Tempo na execucao 2 com vetor tam = 10000 : 2099 microsegundos
+Comparacoes feitas: 169998
+Trocas feitas: 138644
+
+Tempo na execucao 3 com vetor tam = 10000 : 0 microsegundos
+Comparacoes feitas: 169998
+Trocas feitas: 138644
+
+Tempo na execucao 4 com vetor tam = 10000 : 3153 microsegundos
+Comparacoes feitas: 169998
+Trocas feitas: 138644
+
+Tempo na execucao 5 com vetor tam = 10000 : 997 microsegundos
+Comparacoes feitas: 169993
+Trocas feitas: 138713
+
+Tempo na execucao 1 com vetor tam = 50000 : 17073 microsegundos
+Comparacoes feitas: 1024778
+Trocas feitas: 809989
+
+Tempo na execucao 2 com vetor tam = 50000 : 17142 microsegundos
+Comparacoes feitas: 1024378
+Trocas feitas: 809734
+
+Tempo na execucao 3 com vetor tam = 50000 : 19074 microsegundos
+Comparacoes feitas: 1023702
+Trocas feitas: 809839
+
+Tempo na execucao 4 com vetor tam = 50000 : 20198 microsegundos
+Comparacoes feitas: 1023668
+Trocas feitas: 809783
+
+Tempo na execucao 5 com vetor tam = 50000 : 11481 microsegundos
+Comparacoes feitas: 1023438
+Trocas feitas: 809590
+
+Tempo na execucao 1 com vetor tam = 100000 : 33106 microsegundos
+Comparacoes feitas: 2197530
+Trocas feitas: 1719145
+
+Tempo na execucao 2 com vetor tam = 100000 : 22503 microsegundos
+Comparacoes feitas: 2199016
+Trocas feitas: 1719990
+
+Tempo na execucao 3 com vetor tam = 100000 : 25464 microsegundos
+Comparacoes feitas: 2198056
+Trocas feitas: 1719087
+
+Tempo na execucao 4 com vetor tam = 100000 : 24840 microsegundos
+Comparacoes feitas: 2197677
+Trocas feitas: 1719439
+
+Tempo na execucao 5 com vetor tam = 100000 : 25531 microsegundos
+Comparacoes feitas: 2198420
+Trocas feitas: 1719472
+
+
+
+ShellSort:
+
+Tempo na execucao 1 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 429
+Trocas feitas: 1064
+
+Tempo na execucao 2 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 429
+Trocas feitas: 1064
+
+Tempo na execucao 3 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 429
+Trocas feitas: 1064
+
+Tempo na execucao 4 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 429
+Trocas feitas: 1064
+
+Tempo na execucao 5 com vetor tam = 1000 : 0 microsegundos
+Comparacoes feitas: 429
+Trocas feitas: 1064
+
+Tempo na execucao 1 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 827
+Trocas feitas: 2546
+
+Tempo na execucao 2 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 867
+Trocas feitas: 2586
+
+Tempo na execucao 3 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 867
+Trocas feitas: 2586
+
+Tempo na execucao 4 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 867
+Trocas feitas: 2586
+
+Tempo na execucao 5 com vetor tam = 5000 : 0 microsegundos
+Comparacoes feitas: 867
+Trocas feitas: 2586
+
+Tempo na execucao 1 com vetor tam = 10000 : 0 microsegundos
+Comparacoes feitas: 76
+Trocas feitas: 234
+
+Tempo na execucao 2 com vetor tam = 10000 : 0 microsegundos
+Comparacoes feitas: 76
+Trocas feitas: 234
+
+Tempo na execucao 3 com vetor tam = 10000 : 0 microsegundos
+Comparacoes feitas: 90
+Trocas feitas: 248
+
+Tempo na execucao 4 com vetor tam = 10000 : 0 microsegundos
+Comparacoes feitas: 90
+Trocas feitas: 248
+
+Tempo na execucao 5 com vetor tam = 10000 : 0 microsegundos
+Comparacoes feitas: 90
+Trocas feitas: 248
+
+Tempo na execucao 1 com vetor tam = 50000 : 0 microsegundos
+Comparacoes feitas: 10214
+Trocas feitas: 30689
+
+Tempo na execucao 2 com vetor tam = 50000 : 0 microsegundos
+Comparacoes feitas: 10137
+Trocas feitas: 30612
+
+Tempo na execucao 3 com vetor tam = 50000 : 0 microsegundos
+Comparacoes feitas: 10114
+Trocas feitas: 30589
+
+Tempo na execucao 4 com vetor tam = 50000 : 0 microsegundos
+Comparacoes feitas: 10095
+Trocas feitas: 30570
+
+Tempo na execucao 5 com vetor tam = 50000 : 0 microsegundos
+Comparacoes feitas: 10133
+Trocas feitas: 30608
+
+Tempo na execucao 1 com vetor tam = 100000 : 0 microsegundos
+Comparacoes feitas: 5775
+Trocas feitas: 17201
+
+Tempo na execucao 2 com vetor tam = 100000 : 0 microsegundos
+Comparacoes feitas: 5790
+Trocas feitas: 17216
+
+Tempo na execucao 3 com vetor tam = 100000 : 0 microsegundos
+Comparacoes feitas: 5700
+Trocas feitas: 17126
+
+Tempo na execucao 4 com vetor tam = 100000 : 0 microsegundos
+Comparacoes feitas: 5699
+Trocas feitas: 17125
+
+Tempo na execucao 5 com vetor tam = 100000 : 0 microsegundos
+Comparacoes feitas: 5735
+Trocas feitas: 17161
+
+
+FIM CENARIO 3
 Relatório:
 
 INICIO CENARIO 4!
@@ -525,516 +1058,516 @@ INICIO CENARIO 4!
 
 Sondagem Linear:
 Tempo na execucao 1 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 2483
+Comparacoes de chaves feitas: 2707
 Memoria gasta: 4000bytes
 
 Tempo na execucao 2 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 2483
+Comparacoes de chaves feitas: 2707
 Memoria gasta: 4000bytes
 
 Tempo na execucao 3 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 2483
+Comparacoes de chaves feitas: 2707
 Memoria gasta: 4000bytes
 
 Tempo na execucao 4 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 2483
+Comparacoes de chaves feitas: 2707
 Memoria gasta: 4000bytes
 
 Tempo na execucao 5 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 2483
+Comparacoes de chaves feitas: 2791
 Memoria gasta: 4000bytes
 
-Tempo na execucao 1 com tabela tam = 5000 : 997000 nanosegundos
-Comparacoes de chaves feitas: 122865
+Tempo na execucao 1 com tabela tam = 5000 : 998000 nanosegundos
+Comparacoes de chaves feitas: 158117
 Memoria gasta: 20000bytes
 
-Tempo na execucao 2 com tabela tam = 5000 : 995000 nanosegundos
-Comparacoes de chaves feitas: 122865
+Tempo na execucao 2 com tabela tam = 5000 : 1441000 nanosegundos
+Comparacoes de chaves feitas: 158117
 Memoria gasta: 20000bytes
 
-Tempo na execucao 3 com tabela tam = 5000 : 996000 nanosegundos
-Comparacoes de chaves feitas: 122865
+Tempo na execucao 3 com tabela tam = 5000 : 997000 nanosegundos
+Comparacoes de chaves feitas: 158117
 Memoria gasta: 20000bytes
 
-Tempo na execucao 4 com tabela tam = 5000 : 998000 nanosegundos
-Comparacoes de chaves feitas: 122865
+Tempo na execucao 4 com tabela tam = 5000 : 0 nanosegundos
+Comparacoes de chaves feitas: 158117
 Memoria gasta: 20000bytes
 
-Tempo na execucao 5 com tabela tam = 5000 : 998000 nanosegundos
-Comparacoes de chaves feitas: 122865
+Tempo na execucao 5 com tabela tam = 5000 : 2012000 nanosegundos
+Comparacoes de chaves feitas: 158117
 Memoria gasta: 20000bytes
 
-Tempo na execucao 1 com tabela tam = 10000 : 6982000 nanosegundos
-Comparacoes de chaves feitas: 824972
+Tempo na execucao 1 com tabela tam = 10000 : 7031000 nanosegundos
+Comparacoes de chaves feitas: 960666
 Memoria gasta: 40000bytes
 
-Tempo na execucao 2 com tabela tam = 10000 : 6977000 nanosegundos
-Comparacoes de chaves feitas: 1001559
+Tempo na execucao 2 com tabela tam = 10000 : 7585000 nanosegundos
+Comparacoes de chaves feitas: 715864
 Memoria gasta: 40000bytes
 
-Tempo na execucao 3 com tabela tam = 10000 : 6981000 nanosegundos
-Comparacoes de chaves feitas: 1001559
+Tempo na execucao 3 com tabela tam = 10000 : 6165000 nanosegundos
+Comparacoes de chaves feitas: 715864
 Memoria gasta: 40000bytes
 
-Tempo na execucao 4 com tabela tam = 10000 : 11970000 nanosegundos
-Comparacoes de chaves feitas: 1001559
+Tempo na execucao 4 com tabela tam = 10000 : 10162000 nanosegundos
+Comparacoes de chaves feitas: 715864
 Memoria gasta: 40000bytes
 
-Tempo na execucao 5 com tabela tam = 10000 : 0 nanosegundos
-Comparacoes de chaves feitas: 1001559
+Tempo na execucao 5 com tabela tam = 10000 : 4332000 nanosegundos
+Comparacoes de chaves feitas: 715864
 Memoria gasta: 40000bytes
 
-Tempo na execucao 1 com tabela tam = 50000 : 69165000 nanosegundos
-Comparacoes de chaves feitas: 7604070
+Tempo na execucao 1 com tabela tam = 50000 : 72511000 nanosegundos
+Comparacoes de chaves feitas: 7816512
 Memoria gasta: 200000bytes
 
-Tempo na execucao 2 com tabela tam = 50000 : 97738000 nanosegundos
-Comparacoes de chaves feitas: 7733024
+Tempo na execucao 2 com tabela tam = 50000 : 75220000 nanosegundos
+Comparacoes de chaves feitas: 7829941
 Memoria gasta: 200000bytes
 
-Tempo na execucao 3 com tabela tam = 50000 : 46866000 nanosegundos
-Comparacoes de chaves feitas: 7726746
+Tempo na execucao 3 com tabela tam = 50000 : 65733000 nanosegundos
+Comparacoes de chaves feitas: 7744667
 Memoria gasta: 200000bytes
 
-Tempo na execucao 4 com tabela tam = 50000 : 53619000 nanosegundos
-Comparacoes de chaves feitas: 7838736
+Tempo na execucao 4 com tabela tam = 50000 : 71416000 nanosegundos
+Comparacoes de chaves feitas: 7902468
 Memoria gasta: 200000bytes
 
-Tempo na execucao 5 com tabela tam = 50000 : 46895000 nanosegundos
-Comparacoes de chaves feitas: 7879921
+Tempo na execucao 5 com tabela tam = 50000 : 79154000 nanosegundos
+Comparacoes de chaves feitas: 7419411
 Memoria gasta: 200000bytes
 
-Tempo na execucao 1 com tabela tam = 100000 : 139348000 nanosegundos
-Comparacoes de chaves feitas: 16596644
+Tempo na execucao 1 com tabela tam = 100000 : 143505000 nanosegundos
+Comparacoes de chaves feitas: 16165265
 Memoria gasta: 400000bytes
 
-Tempo na execucao 2 com tabela tam = 100000 : 109354000 nanosegundos
-Comparacoes de chaves feitas: 16250694
+Tempo na execucao 2 com tabela tam = 100000 : 146314000 nanosegundos
+Comparacoes de chaves feitas: 16457030
 Memoria gasta: 400000bytes
 
-Tempo na execucao 3 com tabela tam = 100000 : 124557000 nanosegundos
-Comparacoes de chaves feitas: 16582910
+Tempo na execucao 3 com tabela tam = 100000 : 138989000 nanosegundos
+Comparacoes de chaves feitas: 16657096
 Memoria gasta: 400000bytes
 
-Tempo na execucao 4 com tabela tam = 100000 : 116589000 nanosegundos
-Comparacoes de chaves feitas: 16651152
+Tempo na execucao 4 com tabela tam = 100000 : 175693000 nanosegundos
+Comparacoes de chaves feitas: 16280471
 Memoria gasta: 400000bytes
 
-Tempo na execucao 5 com tabela tam = 100000 : 114410000 nanosegundos
-Comparacoes de chaves feitas: 16463285
+Tempo na execucao 5 com tabela tam = 100000 : 283654000 nanosegundos
+Comparacoes de chaves feitas: 16659046
 Memoria gasta: 400000bytes
 
 
 
 Sondagem Quadratica:
 Tempo na execucao 1 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 16609
+Comparacoes de chaves feitas: 16506
 Memoria gasta: 4000bytes
 
 Tempo na execucao 2 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 16609
+Comparacoes de chaves feitas: 16506
 Memoria gasta: 4000bytes
 
-Tempo na execucao 3 com tabela tam = 1000 : 15622000 nanosegundos
-Comparacoes de chaves feitas: 16609
+Tempo na execucao 3 com tabela tam = 1000 : 997000 nanosegundos
+Comparacoes de chaves feitas: 16506
 Memoria gasta: 4000bytes
 
-Tempo na execucao 4 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 16609
+Tempo na execucao 4 com tabela tam = 1000 : 996000 nanosegundos
+Comparacoes de chaves feitas: 16506
 Memoria gasta: 4000bytes
 
 Tempo na execucao 5 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 16609
+Comparacoes de chaves feitas: 16506
 Memoria gasta: 4000bytes
 
-Tempo na execucao 1 com tabela tam = 5000 : 2993000 nanosegundos
-Comparacoes de chaves feitas: 259754
+Tempo na execucao 1 com tabela tam = 5000 : 7819000 nanosegundos
+Comparacoes de chaves feitas: 252550
 Memoria gasta: 20000bytes
 
-Tempo na execucao 2 com tabela tam = 5000 : 2032000 nanosegundos
-Comparacoes de chaves feitas: 259754
+Tempo na execucao 2 com tabela tam = 5000 : 994000 nanosegundos
+Comparacoes de chaves feitas: 256382
 Memoria gasta: 20000bytes
 
-Tempo na execucao 3 com tabela tam = 5000 : 1993000 nanosegundos
-Comparacoes de chaves feitas: 259754
+Tempo na execucao 3 com tabela tam = 5000 : 4030000 nanosegundos
+Comparacoes de chaves feitas: 256382
 Memoria gasta: 20000bytes
 
-Tempo na execucao 4 com tabela tam = 5000 : 1995000 nanosegundos
-Comparacoes de chaves feitas: 261798
+Tempo na execucao 4 com tabela tam = 5000 : 8446000 nanosegundos
+Comparacoes de chaves feitas: 256382
 Memoria gasta: 20000bytes
 
-Tempo na execucao 5 com tabela tam = 5000 : 1994000 nanosegundos
-Comparacoes de chaves feitas: 261798
+Tempo na execucao 5 com tabela tam = 5000 : 3244000 nanosegundos
+Comparacoes de chaves feitas: 256382
 Memoria gasta: 20000bytes
 
-Tempo na execucao 1 com tabela tam = 10000 : 15625000 nanosegundos
-Comparacoes de chaves feitas: 837515
+Tempo na execucao 1 com tabela tam = 10000 : 13332000 nanosegundos
+Comparacoes de chaves feitas: 840904
 Memoria gasta: 40000bytes
 
-Tempo na execucao 2 com tabela tam = 10000 : 15622000 nanosegundos
-Comparacoes de chaves feitas: 837515
+Tempo na execucao 2 com tabela tam = 10000 : 14646000 nanosegundos
+Comparacoes de chaves feitas: 840904
 Memoria gasta: 40000bytes
 
-Tempo na execucao 3 com tabela tam = 10000 : 11971000 nanosegundos
-Comparacoes de chaves feitas: 837515
+Tempo na execucao 3 com tabela tam = 10000 : 13955000 nanosegundos
+Comparacoes de chaves feitas: 840904
 Memoria gasta: 40000bytes
 
-Tempo na execucao 4 com tabela tam = 10000 : 15621000 nanosegundos
-Comparacoes de chaves feitas: 837515
+Tempo na execucao 4 com tabela tam = 10000 : 9250000 nanosegundos
+Comparacoes de chaves feitas: 838935
 Memoria gasta: 40000bytes
 
-Tempo na execucao 5 com tabela tam = 10000 : 6993000 nanosegundos
-Comparacoes de chaves feitas: 817043
+Tempo na execucao 5 com tabela tam = 10000 : 9496000 nanosegundos
+Comparacoes de chaves feitas: 838935
 Memoria gasta: 40000bytes
 
-Tempo na execucao 1 com tabela tam = 50000 : 129692000 nanosegundos
-Comparacoes de chaves feitas: 15183757
+Tempo na execucao 1 com tabela tam = 50000 : 224470000 nanosegundos
+Comparacoes de chaves feitas: 15560649
 Memoria gasta: 200000bytes
 
-Tempo na execucao 2 com tabela tam = 50000 : 193464000 nanosegundos
-Comparacoes de chaves feitas: 15304158
+Tempo na execucao 2 com tabela tam = 50000 : 191183000 nanosegundos
+Comparacoes de chaves feitas: 15309924
 Memoria gasta: 200000bytes
 
-Tempo na execucao 3 com tabela tam = 50000 : 140591000 nanosegundos
-Comparacoes de chaves feitas: 15246546
+Tempo na execucao 3 com tabela tam = 50000 : 185654000 nanosegundos
+Comparacoes de chaves feitas: 15306887
 Memoria gasta: 200000bytes
 
-Tempo na execucao 4 com tabela tam = 50000 : 124941000 nanosegundos
-Comparacoes de chaves feitas: 15648225
+Tempo na execucao 4 com tabela tam = 50000 : 256478000 nanosegundos
+Comparacoes de chaves feitas: 15192121
 Memoria gasta: 200000bytes
 
-Tempo na execucao 5 com tabela tam = 50000 : 124999000 nanosegundos
-Comparacoes de chaves feitas: 15365580
+Tempo na execucao 5 com tabela tam = 50000 : 146175000 nanosegundos
+Comparacoes de chaves feitas: 15122426
 Memoria gasta: 200000bytes
 
-Tempo na execucao 1 com tabela tam = 100000 : 669541000 nanosegundos
-Comparacoes de chaves feitas: 58420916
+Tempo na execucao 1 com tabela tam = 100000 : 663668000 nanosegundos
+Comparacoes de chaves feitas: 57809009
 Memoria gasta: 400000bytes
 
-Tempo na execucao 2 com tabela tam = 100000 : 625051000 nanosegundos
-Comparacoes de chaves feitas: 57775133
+Tempo na execucao 2 com tabela tam = 100000 : 687336000 nanosegundos
+Comparacoes de chaves feitas: 58426117
 Memoria gasta: 400000bytes
 
-Tempo na execucao 3 com tabela tam = 100000 : 560456000 nanosegundos
-Comparacoes de chaves feitas: 57934333
+Tempo na execucao 3 com tabela tam = 100000 : 650486000 nanosegundos
+Comparacoes de chaves feitas: 57464835
 Memoria gasta: 400000bytes
 
-Tempo na execucao 4 com tabela tam = 100000 : 1442144000 nanosegundos
-Comparacoes de chaves feitas: 57307037
+Tempo na execucao 4 com tabela tam = 100000 : 715187000 nanosegundos
+Comparacoes de chaves feitas: 58608577
 Memoria gasta: 400000bytes
 
-Tempo na execucao 5 com tabela tam = 100000 : 680583000 nanosegundos
-Comparacoes de chaves feitas: 58278843
+Tempo na execucao 5 com tabela tam = 100000 : 992848000 nanosegundos
+Comparacoes de chaves feitas: 58233318
 Memoria gasta: 400000bytes
 
 
 
 Duplo Hash:
 Tempo na execucao 1 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 873
-Memoria gasta: 7492bytes
+Comparacoes de chaves feitas: 867
+Memoria gasta: 7468bytes
 
-Tempo na execucao 2 com tabela tam = 1000 : 999000 nanosegundos
-Comparacoes de chaves feitas: 873
-Memoria gasta: 7492bytes
+Tempo na execucao 2 com tabela tam = 1000 : 4040000 nanosegundos
+Comparacoes de chaves feitas: 867
+Memoria gasta: 7468bytes
 
-Tempo na execucao 3 com tabela tam = 1000 : 998000 nanosegundos
-Comparacoes de chaves feitas: 873
-Memoria gasta: 7492bytes
+Tempo na execucao 3 com tabela tam = 1000 : 997000 nanosegundos
+Comparacoes de chaves feitas: 867
+Memoria gasta: 7468bytes
 
-Tempo na execucao 4 com tabela tam = 1000 : 1003000 nanosegundos
-Comparacoes de chaves feitas: 873
-Memoria gasta: 7492bytes
+Tempo na execucao 4 com tabela tam = 1000 : 0 nanosegundos
+Comparacoes de chaves feitas: 867
+Memoria gasta: 7468bytes
 
-Tempo na execucao 5 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 873
-Memoria gasta: 7492bytes
+Tempo na execucao 5 com tabela tam = 1000 : 4173000 nanosegundos
+Comparacoes de chaves feitas: 867
+Memoria gasta: 7468bytes
 
-Tempo na execucao 1 com tabela tam = 5000 : 27924000 nanosegundos
-Comparacoes de chaves feitas: 4869
-Memoria gasta: 39476bytes
+Tempo na execucao 1 com tabela tam = 5000 : 24184000 nanosegundos
+Comparacoes de chaves feitas: 4866
+Memoria gasta: 39464bytes
 
-Tempo na execucao 2 com tabela tam = 5000 : 17958000 nanosegundos
-Comparacoes de chaves feitas: 4869
-Memoria gasta: 39476bytes
+Tempo na execucao 2 com tabela tam = 5000 : 23496000 nanosegundos
+Comparacoes de chaves feitas: 4866
+Memoria gasta: 39464bytes
 
-Tempo na execucao 3 com tabela tam = 5000 : 17953000 nanosegundos
-Comparacoes de chaves feitas: 4869
-Memoria gasta: 39476bytes
+Tempo na execucao 3 com tabela tam = 5000 : 54003000 nanosegundos
+Comparacoes de chaves feitas: 4866
+Memoria gasta: 39464bytes
 
-Tempo na execucao 4 com tabela tam = 5000 : 17920000 nanosegundos
-Comparacoes de chaves feitas: 4869
-Memoria gasta: 39476bytes
+Tempo na execucao 4 com tabela tam = 5000 : 31264000 nanosegundos
+Comparacoes de chaves feitas: 4858
+Memoria gasta: 39432bytes
 
-Tempo na execucao 5 com tabela tam = 5000 : 27906000 nanosegundos
-Comparacoes de chaves feitas: 4869
-Memoria gasta: 39476bytes
+Tempo na execucao 5 com tabela tam = 5000 : 37316000 nanosegundos
+Comparacoes de chaves feitas: 4858
+Memoria gasta: 39432bytes
 
-Tempo na execucao 1 com tabela tam = 10000 : 76591000 nanosegundos
-Comparacoes de chaves feitas: 9869
-Memoria gasta: 79476bytes
+Tempo na execucao 1 com tabela tam = 10000 : 92194000 nanosegundos
+Comparacoes de chaves feitas: 9858
+Memoria gasta: 79432bytes
 
-Tempo na execucao 2 com tabela tam = 10000 : 88769000 nanosegundos
-Comparacoes de chaves feitas: 9854
-Memoria gasta: 79416bytes
+Tempo na execucao 2 com tabela tam = 10000 : 121554000 nanosegundos
+Comparacoes de chaves feitas: 9858
+Memoria gasta: 79432bytes
 
-Tempo na execucao 3 com tabela tam = 10000 : 88765000 nanosegundos
-Comparacoes de chaves feitas: 9854
-Memoria gasta: 79416bytes
+Tempo na execucao 3 com tabela tam = 10000 : 131529000 nanosegundos
+Comparacoes de chaves feitas: 9873
+Memoria gasta: 79492bytes
 
-Tempo na execucao 4 com tabela tam = 10000 : 110704000 nanosegundos
-Comparacoes de chaves feitas: 9854
-Memoria gasta: 79416bytes
+Tempo na execucao 4 com tabela tam = 10000 : 123940000 nanosegundos
+Comparacoes de chaves feitas: 9873
+Memoria gasta: 79492bytes
 
-Tempo na execucao 5 com tabela tam = 10000 : 99735000 nanosegundos
-Comparacoes de chaves feitas: 9862
-Memoria gasta: 79448bytes
+Tempo na execucao 5 com tabela tam = 10000 : 123174000 nanosegundos
+Comparacoes de chaves feitas: 9873
+Memoria gasta: 79492bytes
 
-Tempo na execucao 1 com tabela tam = 50000 : 2164099000 nanosegundos
-Comparacoes de chaves feitas: 49862
-Memoria gasta: 399448bytes
+Tempo na execucao 1 com tabela tam = 50000 : 2490040000 nanosegundos
+Comparacoes de chaves feitas: 49869
+Memoria gasta: 399476bytes
 
-Tempo na execucao 2 com tabela tam = 50000 : 1832074000 nanosegundos
-Comparacoes de chaves feitas: 49866
-Memoria gasta: 399464bytes
+Tempo na execucao 2 com tabela tam = 50000 : 2225321000 nanosegundos
+Comparacoes de chaves feitas: 49863
+Memoria gasta: 399452bytes
 
-Tempo na execucao 3 com tabela tam = 50000 : 1985232000 nanosegundos
-Comparacoes de chaves feitas: 49871
-Memoria gasta: 399484bytes
+Tempo na execucao 3 com tabela tam = 50000 : 2380786000 nanosegundos
+Comparacoes de chaves feitas: 49851
+Memoria gasta: 399404bytes
 
-Tempo na execucao 4 com tabela tam = 50000 : 1733689000 nanosegundos
-Comparacoes de chaves feitas: 49861
-Memoria gasta: 399444bytes
+Tempo na execucao 4 com tabela tam = 50000 : 2358973000 nanosegundos
+Comparacoes de chaves feitas: 49863
+Memoria gasta: 399452bytes
 
-Tempo na execucao 5 com tabela tam = 50000 : 1755312000 nanosegundos
-Comparacoes de chaves feitas: 49876
-Memoria gasta: 399504bytes
+Tempo na execucao 5 com tabela tam = 50000 : 2489773000 nanosegundos
+Comparacoes de chaves feitas: 49867
+Memoria gasta: 399468bytes
 
-Tempo na execucao 1 com tabela tam = 100000 : 7167698000 nanosegundos
+Tempo na execucao 1 com tabela tam = 100000 : 8685021000 nanosegundos
+Comparacoes de chaves feitas: 99874
+Memoria gasta: 799496bytes
+
+Tempo na execucao 2 com tabela tam = 100000 : 8668250000 nanosegundos
+Comparacoes de chaves feitas: 99867
+Memoria gasta: 799468bytes
+
+Tempo na execucao 3 com tabela tam = 100000 : 8786169000 nanosegundos
 Comparacoes de chaves feitas: 99861
 Memoria gasta: 799444bytes
 
-Tempo na execucao 2 com tabela tam = 100000 : 7235286000 nanosegundos
-Comparacoes de chaves feitas: 99843
-Memoria gasta: 799372bytes
+Tempo na execucao 4 com tabela tam = 100000 : 8608589000 nanosegundos
+Comparacoes de chaves feitas: 99872
+Memoria gasta: 799488bytes
 
-Tempo na execucao 3 com tabela tam = 100000 : 7213223000 nanosegundos
-Comparacoes de chaves feitas: 99857
-Memoria gasta: 799428bytes
-
-Tempo na execucao 4 com tabela tam = 100000 : 7561121000 nanosegundos
-Comparacoes de chaves feitas: 99866
-Memoria gasta: 799464bytes
-
-Tempo na execucao 5 com tabela tam = 100000 : 7134247000 nanosegundos
+Tempo na execucao 5 com tabela tam = 100000 : 9148200000 nanosegundos
 Comparacoes de chaves feitas: 99864
 Memoria gasta: 799456bytes
 
 
 
 Encadeamento Separado:
-Tempo na execucao 1 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 1 com tabela tam = 1000 : 4036000 nanosegundos
+Comparacoes de chaves feitas: 748
+Memoria gasta: 4000bytes
 
 Tempo na execucao 2 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Comparacoes de chaves feitas: 748
+Memoria gasta: 4000bytes
 
-Tempo na execucao 3 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 3 com tabela tam = 1000 : 4150000 nanosegundos
+Comparacoes de chaves feitas: 748
+Memoria gasta: 4000bytes
 
 Tempo na execucao 4 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Comparacoes de chaves feitas: 748
+Memoria gasta: 4000bytes
 
 Tempo na execucao 5 com tabela tam = 1000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Comparacoes de chaves feitas: 748
+Memoria gasta: 4000bytes
 
-Tempo na execucao 1 com tabela tam = 5000 : 995000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 1 com tabela tam = 5000 : 1027000 nanosegundos
+Comparacoes de chaves feitas: 4670
+Memoria gasta: 20000bytes
 
-Tempo na execucao 2 com tabela tam = 5000 : 999000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 2 com tabela tam = 5000 : 0 nanosegundos
+Comparacoes de chaves feitas: 4670
+Memoria gasta: 20000bytes
 
-Tempo na execucao 3 com tabela tam = 5000 : 1001000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 3 com tabela tam = 5000 : 0 nanosegundos
+Comparacoes de chaves feitas: 4670
+Memoria gasta: 20000bytes
 
-Tempo na execucao 4 com tabela tam = 5000 : 997000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 4 com tabela tam = 5000 : 0 nanosegundos
+Comparacoes de chaves feitas: 4670
+Memoria gasta: 20000bytes
 
-Tempo na execucao 5 com tabela tam = 5000 : 997000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 5 com tabela tam = 5000 : 0 nanosegundos
+Comparacoes de chaves feitas: 4670
+Memoria gasta: 20000bytes
 
 Tempo na execucao 1 com tabela tam = 10000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Comparacoes de chaves feitas: 9667
+Memoria gasta: 40000bytes
 
-Tempo na execucao 2 com tabela tam = 10000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 2 com tabela tam = 10000 : 5315000 nanosegundos
+Comparacoes de chaves feitas: 9667
+Memoria gasta: 40000bytes
 
-Tempo na execucao 3 com tabela tam = 10000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 3 com tabela tam = 10000 : 5154000 nanosegundos
+Comparacoes de chaves feitas: 9667
+Memoria gasta: 40000bytes
 
 Tempo na execucao 4 com tabela tam = 10000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Comparacoes de chaves feitas: 9667
+Memoria gasta: 40000bytes
 
-Tempo na execucao 5 com tabela tam = 10000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 5 com tabela tam = 10000 : 4326000 nanosegundos
+Comparacoes de chaves feitas: 9667
+Memoria gasta: 40000bytes
 
-Tempo na execucao 1 com tabela tam = 50000 : 9362000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 1 com tabela tam = 50000 : 12216000 nanosegundos
+Comparacoes de chaves feitas: 49667
+Memoria gasta: 200000bytes
 
-Tempo na execucao 2 com tabela tam = 50000 : 15653000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 2 com tabela tam = 50000 : 8538000 nanosegundos
+Comparacoes de chaves feitas: 49667
+Memoria gasta: 200000bytes
 
-Tempo na execucao 3 com tabela tam = 50000 : 0 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 3 com tabela tam = 50000 : 9359000 nanosegundos
+Comparacoes de chaves feitas: 49667
+Memoria gasta: 200000bytes
 
-Tempo na execucao 4 com tabela tam = 50000 : 15620000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 4 com tabela tam = 50000 : 9134000 nanosegundos
+Comparacoes de chaves feitas: 49667
+Memoria gasta: 200000bytes
 
-Tempo na execucao 5 com tabela tam = 50000 : 15598000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 5 com tabela tam = 50000 : 14533000 nanosegundos
+Comparacoes de chaves feitas: 49667
+Memoria gasta: 200000bytes
 
-Tempo na execucao 1 com tabela tam = 100000 : 48869000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 1 com tabela tam = 100000 : 22510000 nanosegundos
+Comparacoes de chaves feitas: 99667
+Memoria gasta: 400000bytes
 
-Tempo na execucao 2 com tabela tam = 100000 : 15648000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 2 com tabela tam = 100000 : 20845000 nanosegundos
+Comparacoes de chaves feitas: 99667
+Memoria gasta: 400000bytes
 
-Tempo na execucao 3 com tabela tam = 100000 : 17429000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 3 com tabela tam = 100000 : 21922000 nanosegundos
+Comparacoes de chaves feitas: 99667
+Memoria gasta: 400000bytes
 
-Tempo na execucao 4 com tabela tam = 100000 : 15619000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 4 com tabela tam = 100000 : 23046000 nanosegundos
+Comparacoes de chaves feitas: 99667
+Memoria gasta: 400000bytes
 
-Tempo na execucao 5 com tabela tam = 100000 : 16956000 nanosegundos
-Comparacoes de chaves feitas: 10
-Memoria gasta: 10
+Tempo na execucao 5 com tabela tam = 100000 : 21165000 nanosegundos
+Comparacoes de chaves feitas: 99667
+Memoria gasta: 400000bytes
 
 
 
 Encadeamento Coalescido:
-Tempo na execucao 1 com tabela tam = 1000 : 15623000 nanosegundos
+Tempo na execucao 1 com tabela tam = 1000 : 4967000 nanosegundos
 Comparacoes de chaves feitas: 999
-Memoria gasta: 10
+Memoria gasta: 4000bytes
 
-Tempo na execucao 2 com tabela tam = 1000 : 0 nanosegundos
+Tempo na execucao 2 com tabela tam = 1000 : 999000 nanosegundos
 Comparacoes de chaves feitas: 1998
-Memoria gasta: 10
+Memoria gasta: 4000bytes
 
-Tempo na execucao 3 com tabela tam = 1000 : 0 nanosegundos
+Tempo na execucao 3 com tabela tam = 1000 : 4138000 nanosegundos
 Comparacoes de chaves feitas: 2997
-Memoria gasta: 10
+Memoria gasta: 4000bytes
 
 Tempo na execucao 4 com tabela tam = 1000 : 0 nanosegundos
 Comparacoes de chaves feitas: 3996
-Memoria gasta: 10
+Memoria gasta: 4000bytes
 
-Tempo na execucao 5 com tabela tam = 1000 : 0 nanosegundos
+Tempo na execucao 5 com tabela tam = 1000 : 3303000 nanosegundos
 Comparacoes de chaves feitas: 4995
-Memoria gasta: 10
+Memoria gasta: 4000bytes
 
-Tempo na execucao 1 com tabela tam = 5000 : 70968000 nanosegundos
+Tempo na execucao 1 com tabela tam = 5000 : 78936000 nanosegundos
 Comparacoes de chaves feitas: 4999
-Memoria gasta: 10
+Memoria gasta: 20000bytes
 
-Tempo na execucao 2 com tabela tam = 5000 : 76205000 nanosegundos
+Tempo na execucao 2 com tabela tam = 5000 : 74560000 nanosegundos
 Comparacoes de chaves feitas: 9998
-Memoria gasta: 10
+Memoria gasta: 20000bytes
 
-Tempo na execucao 3 com tabela tam = 5000 : 62397000 nanosegundos
+Tempo na execucao 3 com tabela tam = 5000 : 83109000 nanosegundos
 Comparacoes de chaves feitas: 14997
-Memoria gasta: 10
+Memoria gasta: 20000bytes
 
-Tempo na execucao 4 com tabela tam = 5000 : 66009000 nanosegundos
+Tempo na execucao 4 com tabela tam = 5000 : 73833000 nanosegundos
 Comparacoes de chaves feitas: 19996
-Memoria gasta: 10
+Memoria gasta: 20000bytes
 
-Tempo na execucao 5 com tabela tam = 5000 : 73100000 nanosegundos
+Tempo na execucao 5 com tabela tam = 5000 : 80655000 nanosegundos
 Comparacoes de chaves feitas: 24995
-Memoria gasta: 10
+Memoria gasta: 20000bytes
 
-Tempo na execucao 1 com tabela tam = 10000 : 301713000 nanosegundos
+Tempo na execucao 1 com tabela tam = 10000 : 318480000 nanosegundos
 Comparacoes de chaves feitas: 9999
-Memoria gasta: 10
+Memoria gasta: 40000bytes
 
-Tempo na execucao 2 com tabela tam = 10000 : 310272000 nanosegundos
+Tempo na execucao 2 com tabela tam = 10000 : 328228000 nanosegundos
 Comparacoes de chaves feitas: 19998
-Memoria gasta: 10
+Memoria gasta: 40000bytes
 
-Tempo na execucao 3 com tabela tam = 10000 : 303051000 nanosegundos
+Tempo na execucao 3 com tabela tam = 10000 : 317112000 nanosegundos
 Comparacoes de chaves feitas: 29997
-Memoria gasta: 10
+Memoria gasta: 40000bytes
 
-Tempo na execucao 4 com tabela tam = 10000 : 309396000 nanosegundos
+Tempo na execucao 4 com tabela tam = 10000 : 329889000 nanosegundos
 Comparacoes de chaves feitas: 39996
-Memoria gasta: 10
+Memoria gasta: 40000bytes
 
-Tempo na execucao 5 com tabela tam = 10000 : 312909000 nanosegundos
+Tempo na execucao 5 com tabela tam = 10000 : 312636000 nanosegundos
 Comparacoes de chaves feitas: 49995
-Memoria gasta: 10
+Memoria gasta: 40000bytes
 
-Tempo na execucao 1 com tabela tam = 50000 : 7744007000 nanosegundos
+Tempo na execucao 1 com tabela tam = 50000 : 7557537000 nanosegundos
 Comparacoes de chaves feitas: 49999
-Memoria gasta: 10
+Memoria gasta: 200000bytes
 
-Tempo na execucao 2 com tabela tam = 50000 : 7389822000 nanosegundos
+Tempo na execucao 2 com tabela tam = 50000 : 7566438000 nanosegundos
 Comparacoes de chaves feitas: 99998
-Memoria gasta: 10
+Memoria gasta: 200000bytes
 
-Tempo na execucao 3 com tabela tam = 50000 : 7358747000 nanosegundos
+Tempo na execucao 3 com tabela tam = 50000 : 7525123000 nanosegundos
 Comparacoes de chaves feitas: 149997
-Memoria gasta: 10
+Memoria gasta: 200000bytes
 
-Tempo na execucao 4 com tabela tam = 50000 : 7404194000 nanosegundos
+Tempo na execucao 4 com tabela tam = 50000 : 7512040000 nanosegundos
 Comparacoes de chaves feitas: 199996
-Memoria gasta: 10
+Memoria gasta: 200000bytes
 
-Tempo na execucao 5 com tabela tam = 50000 : 7381571000 nanosegundos
+Tempo na execucao 5 com tabela tam = 50000 : 7637411000 nanosegundos
 Comparacoes de chaves feitas: 249995
-Memoria gasta: 10
+Memoria gasta: 200000bytes
 
-Tempo na execucao 1 com tabela tam = 100000 : 29619082000 nanosegundos
+Tempo na execucao 1 com tabela tam = 100000 : 30070630000 nanosegundos
 Comparacoes de chaves feitas: 99999
-Memoria gasta: 10
+Memoria gasta: 400000bytes
 
-Tempo na execucao 2 com tabela tam = 100000 : 29924312000 nanosegundos
+Tempo na execucao 2 com tabela tam = 100000 : 37690529000 nanosegundos
 Comparacoes de chaves feitas: 199998
-Memoria gasta: 10
+Memoria gasta: 400000bytes
 
-Tempo na execucao 3 com tabela tam = 100000 : 29623492000 nanosegundos
+Tempo na execucao 3 com tabela tam = 100000 : 30480174000 nanosegundos
 Comparacoes de chaves feitas: 299997
-Memoria gasta: 10
+Memoria gasta: 400000bytes
 
-Tempo na execucao 4 com tabela tam = 100000 : 30442299000 nanosegundos
+Tempo na execucao 4 com tabela tam = 100000 : 30547180000 nanosegundos
 Comparacoes de chaves feitas: 399996
-Memoria gasta: 10
+Memoria gasta: 400000bytes
 
-Tempo na execucao 5 com tabela tam = 100000 : 29451112000 nanosegundos
+Tempo na execucao 5 com tabela tam = 100000 : 30130537000 nanosegundos
 Comparacoes de chaves feitas: 499995
-Memoria gasta: 10
+Memoria gasta: 400000bytes
 
 
 FIM CENARIO 4!

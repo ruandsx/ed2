@@ -14,6 +14,8 @@ using namespace std;
 #include "classes/Cenario1.h"
 #include "cpps/Cenario2.cpp"
 #include "classes/Cenario2.h"
+#include "cpps/Cenario3.cpp"
+#include "classes/Cenario3.h"
 
 using namespace std;
 int main(){
@@ -30,6 +32,12 @@ int main(){
   cen2->mediana();
   cen2->insercao();
   delete cen2;
-  return 0;
-  
+
+  Cenario3 *cen3 = new Cenario3;
+  cen3->quicksort();
+  cen3->insertion();
+  cen3->merge();
+  cen3->heapsort();
+  cen3->shell();
+  return 0; 
 }

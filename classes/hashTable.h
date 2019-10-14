@@ -10,7 +10,7 @@ class hashTable{
     private: 
         int tamanho; //tamanho inicial da tabela
         int tamanho_atual = 0; //tamanho enquanto vai inserindo os trem
-
+        int comparacoes = 0;
         int *tabela; // tabela Hashing
 
     public:
@@ -31,5 +31,7 @@ class hashTable{
         void sondagemQuadratica(int x);
         //função para imprimir a tabela 
         void imprimeTabela();
+        int getMemoria();
+        int getComparacoes();
 
 };

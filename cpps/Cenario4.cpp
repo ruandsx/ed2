@@ -66,8 +66,8 @@ void Cenario4::sondagemLinear(){
           auto duration = duration_cast<nanoseconds>(stop - start);       
 
           string1 << "Tempo na execucao " << j+1 << " com tabela tam = " << tamanhos[i] << " : "<< duration.count() << " nanosegundos" << endl;
-          string2 << "Comparacoes de chaves feitas: " << 10 << endl;
-          string3 << "Memoria gasta: " << 10 << endl << endl;
+          string2 << "Comparacoes de chaves feitas: " << h->getComparacoes() << endl;
+          string3 << "Memoria gasta: " << h->getMemoria()  << "bytes" << endl << endl;
           
           arquivo->abrir("C:/Users/ruanl/Desktop/DocumentosFacul/Materias/ED2/assets/saida.txt", 'e');
           arquivo->gravar(string1.str());
@@ -112,8 +112,8 @@ void Cenario4::sondagemQuadratica(){
         auto duration = duration_cast<nanoseconds>(stop - start);       
 
         string1 << "Tempo na execucao " << j+1 << " com tabela tam = " << tamanhos[i] << " : "<< duration.count() << " nanosegundos" << endl;
-        string2 << "Comparacoes de chaves feitas: " << 10 << endl;
-        string3 << "Memoria gasta: " << 10 << endl << endl;
+        string2 << "Comparacoes de chaves feitas: " << h->getComparacoes() << endl;
+        string3 << "Memoria gasta: " << h->getMemoria()  << "bytes" << endl << endl;
         
         arquivo->abrir("C:/Users/ruanl/Desktop/DocumentosFacul/Materias/ED2/assets/saida.txt", 'e');
         arquivo->gravar(string1.str());
@@ -157,8 +157,8 @@ void Cenario4::duploHash(){
         auto duration = duration_cast<nanoseconds>(stop - start);       
 
         string1 << "Tempo na execucao " << j+1 << " com tabela tam = " << tamanhos[i] << " : "<< duration.count() << " nanosegundos" << endl;
-        string2 << "Comparacoes de chaves feitas: " << 10 << endl;
-        string3 << "Memoria gasta: " << 10 << endl << endl;
+        string2 << "Comparacoes de chaves feitas: " << h->getComparacoes() << endl;
+        string3 << "Memoria gasta: " << h->getMemoria()  << "bytes" << endl << endl;
         
         arquivo->abrir("C:/Users/ruanl/Desktop/DocumentosFacul/Materias/ED2/assets/saida.txt", 'e');
         arquivo->gravar(string1.str());

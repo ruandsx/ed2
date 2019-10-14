@@ -11,6 +11,8 @@ using namespace std;
 hashTable::hashTable(int tamanho){
     this->tamanho = tamanho;
     tabela = new int [tamanho];
+    tamanho_atual = 0;
+    comparacoes = 0;
 }
 
 int hashTable :: fHashing(int x){
@@ -31,6 +33,7 @@ void hashTable::doubleHashing(int x){
     if(tabela[index] != -1)
     {
         int index2 = f2Hashing(x);
+        comparacoes++;
         int i = 1;
 
         while (true)
@@ -40,6 +43,7 @@ void hashTable::doubleHashing(int x){
             if(tabela[newIndex] == -1)
             {
                tabela[newIndex] = x;   // se o novo indice funcionar insere o valor x
+               tamanho_atual++;
                break;
             } 
             //If para retornar ao inicio da tabela
@@ -51,6 +55,7 @@ void hashTable::doubleHashing(int x){
     }
     else
         tabela[index] = x; //Se nao houver colisão ele apenas insere na posicao 
+        tamanho_atual++;
 }
 //pos = posicao ocupada que tentaram inserir x || i = indice da tentativa de vezes
 int hashTable::sLinearindex(int pos, int i){
@@ -59,8 +64,11 @@ int hashTable::sLinearindex(int pos, int i){
 
 void hashTable::sondagemLinear(int x){
     int index = fHashing(x);
-    if (tabela[index] == -1)
+    if (tabela[index] == -1){
         tabela[index] = x;
+        tamanho_atual++;
+    }
+
     else
     { 
         int i = 0;
@@ -68,8 +76,10 @@ void hashTable::sondagemLinear(int x){
         while (true)
         {
             novoIndice = sLinearindex(index,i);
+            comparacoes++;
             if(tabela[novoIndice] == -1){
                 tabela[index] = x;
+                tamanho_atual++;
                 break;
             }
             i++;
@@ -89,9 +99,10 @@ int hashTable::sQuadraticaindex(int pos, int i){
 
 void hashTable::sondagemQuadratica(int x){
     int index = fHashing(x);
-    if (tabela[index] == -1)
+    if (tabela[index] == -1){
         tabela[index] = x;
-    
+        tamanho_atual++;
+    }
     else
     {
         int i = 0;
@@ -99,9 +110,11 @@ void hashTable::sondagemQuadratica(int x){
         while (true)
         {
             novoIndice = sQuadraticaindex(index,i);
+            comparacoes++;
             if (tabela[novoIndice] == -1)
             {
                 tabela[novoIndice] = x;
+                tamanho_atual++;
                 break;
             }
             i++;
@@ -117,4 +130,12 @@ void hashTable::sondagemQuadratica(int x){
 void hashTable::imprimeTabela(){
     for (int i = 0; i < tamanho; i++)
         cout<<i<<" -> "<<tabela[i]<<endl;
+}
+
+int hashTable::getMemoria(){
+    return tamanho_atual * 4;
+}
+
+int hashTable::getComparacoes(){
+    return comparacoes;
 }

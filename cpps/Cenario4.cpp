@@ -2,7 +2,7 @@
 
 #include "../cpps/hashTable.cpp"
 #include "../cpps/endSeparado.cpp"
-#include "../cpps/hashEncadCoal.cpp"
+#include "../cpps/endCoalescido.cpp"
 
 #include <cstdlib>
 #include <stdio.h>
@@ -240,7 +240,7 @@ void Cenario4::encadeamentoCoalescido(){
         arquivo->montarVetor(vetor, tamanhos[i]);
         arquivo->fechar();
 
-        hashEncadCoal *coalescido = new hashEncadCoal(tamanhos[i]);
+        endCoalescido *coalescido = new endCoalescido(tamanhos[i]);
 
         auto start = high_resolution_clock::now();
         for(int k=0; k<tamanhos[i]; k++){

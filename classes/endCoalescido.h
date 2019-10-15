@@ -1,11 +1,10 @@
-#ifndef HASHENCADCOAL_H
-#define HASHENCADCOAL_H
+#ifndef ENDCOALESCIDO_H
+#define ENDCOALESCIDO_H
 #include <stdio.h>
 
 using namespace std;
 
-///classe de hash coalescido (sem porao)
-class hashEncadCoal
+class endCoalescido
 {
     private:
         unsigned numeroChaves;
@@ -15,8 +14,8 @@ class hashEncadCoal
 
 
     public:
-        hashEncadCoal(unsigned numeroChaves);
-        ~hashEncadCoal();
+        endCoalescido(unsigned numeroChaves);
+        ~endCoalescido();
         unsigned getIndiceColisao(unsigned indice);
         unsigned funcaoHash(unsigned chave);
         void insereItem(unsigned chave, unsigned *countColisoes);
@@ -24,4 +23,4 @@ class hashEncadCoal
 };
 
 
-#endif // HASHENCADCOAL_H
+#endif // ENDCOALESCIDO_H
